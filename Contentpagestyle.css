@@ -1,0 +1,232 @@
+.gallery {
+  position: relative;
+}
+.gallery:hover .thumb {
+  opacity: .7;
+}
+.thumb {
+    margin:2% 2% 2% 0;
+    height: 180px;
+    width: 18.5%;
+    background: no-repeat center center;
+    background-size: cover;
+    transition: opacity 600ms; 
+}
+.gallery .thumb:hover {
+  opacity: 1; /* overrides blur, so active img is not blurred */
+}
+.thumb:before, .thumb:after { 
+  opacity: 0; 
+  width: 78%;
+}
+.thumb:last-of-type:before, .thumb:last-of-type:after { opacity: 1; }
+.thumb:hover:before, .thumb:hover:after { 
+  z-index: 100; /* so this image stays on top */
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+/* this is the full-size image  */
+.thumb:before { 
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 21%;
+    height: 100%;
+    padding-left: 20px;
+    background: inherit;
+    background-position: 20px center;/* moves the image slightly right so there's a gap between thumbnails and full-size */
+}
+/*
+* CSS below just sets src of each image
+* could also be applied inline with HTML if needed to be dynamic
+*/
+.thumb.london {
+  background-image: url(images/SpeakerHeader3.jpg);
+}
+.thumb.paris {
+  background-image: url(images/Speakers1.gif);
+}
+.thumb.sf {
+  background-image: url(images/SpeakerHeader1.jpg);
+}
+/* unvisited link */
+a:link {
+  color:#0090ff;
+
+}
+
+/* visited link */
+a:visited {
+  color:#b427bd;
+  text-decoration:none !important;
+}
+
+/* mouse over link */
+a:hover h1:hover {
+  color:#000000;
+  
+}
+/* selected link */
+a:active {
+  color:#00b4ff;
+  text-decoration:none !important;
+}
+
+img{
+  max-width: 100%;
+}
+h1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+	font-size: 50px;
+  line-height: 40px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 0 0 -1px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 22px;
+  text-align: left;
+  color: #222222;
+  font-weight: bold;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  margin:32px 0 10px 0;
+  line-height: 22px;
+}
+h3{  
+  font-size: 16px;
+  text-align: left;
+  color: #222222;
+  font-weight: bold;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 20px 0 10px 0;
+  line-height: 16px;
+}
+h4{
+	font-size: 18px;
+	text-align: left;
+	color:#777777;
+	margin: 20px 0 0 0;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	text-transform: uppercase;
+}
+p{
+	font-size: 16px;
+	line-height: 24px;
+	text-align: left;
+	color:#656363;
+	margin: 10px 0 0 0;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.correct{
+  color:#6a9919 !important;
+}
+.incorrect{
+  color:#a42424 !important;
+}
+hr {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 6px;
+  border-radius: 3px;
+}
+.l-wrap {
+	margin: 0 auto;
+	max-width: 1400px;
+	width: 90%;
+}
+.logo{
+	max-width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.breif{
+	width: 100%;
+	box-sizing: border-box;
+}
+.mainbodytext{
+	width: 100%;
+	box-sizing: border-box;
+}
+.agendabanner{
+	background: rgb(0, 0, 0, 0.2);
+	background-image:url("images/AgendaVideo2.1.gif");
+	min-height:400px;
+	background-size:cover;
+	background-position: center;
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+}
+.centerheader{
+	display:inline-block;
+	max-width: 433px;
+}
+.fullwidthimg{
+  margin:20px auto 10px auto;
+	width: 95%;
+	height: auto;
+}
+.halfwidthimg{
+  max-width: 200px;
+  width: 70%;
+  height: auto;
+  margin: 20px 2% 10px;;
+  display: inline-grid;
+}
+.imagedescription{
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    color: #888888;
+    margin: 8px 0 20px 0;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@media (min-width:750px) {
+	h1{
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+		font-size: 100px;
+    line-height: 77px;
+	  margin: 0px 0 25px -4px;
+	}
+  .halfwidthimg{
+    max-width: 300px;
+    width: 44%;
+    height: auto;
+    margin:2%;
+    display: inline-grid;
+  }
+  	.twohalfssection{
+	    display: flex;
+	    width: 100%;
+  }
+    .breif{
+	    flex:1;
+	    padding-right: 3%;
+	    width: 10%;
+  }
+  	.mainbodytext{
+		padding: 0  6%;
+		box-sizing: border-box;
+		width:70%;
+	}
+}
