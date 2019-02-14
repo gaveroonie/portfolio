@@ -184,7 +184,6 @@ hr {
 	height: auto;
 }
 .halfwidthimg{
-  max-width: 200px;
   width: 70%;
   height: auto;
   margin: 20px 2% 10px;;
@@ -209,7 +208,6 @@ hr {
 	  margin: 0px 0 25px -4px;
 	}
   .halfwidthimg{
-    max-width: 300px;
     width: 44%;
     height: auto;
     margin:2%;
