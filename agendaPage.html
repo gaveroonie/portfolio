@@ -4,124 +4,153 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="stylesheet" href="contentpagestyle.css">
+    <link rel="stylesheet" href="headerimages.css">
     <link rel="stylesheet" href="https://use.typekit.net/bjk2aea.css">
 	<title>Agenda Page Prt1</title>
 </head>
 
-    <body>
-    <header>
-		<div class="l-wrap">
+<body>
+  <header>
+    <div class="l-wrap">
       <div class="logo">
       <a href="index.html">
         <img src="images/uxlogo.svg" lt="UXlogo" width="223" height="56" onerror="this.onerror=null; this.src='images/uxlogo.png'">
       </a>
       </div>
-		</div>
-    </header>
-		<div class="l-wrap">
-   			<div class="headertext">
-   			<h4>project</h4>
-   			<h1>Agenda Page Prt 1</h1>
-   		</div>
-        <div class="agendabanner">
-          <div class="centerheader">
+    </div>
+    <div class="l-wrap">
+        <div class="headertext">
+        <h4>project</h4>
+        <h1>Agenda Part One</h1>
+      </div>
+    </div>
+  </header>
+        
+    <!--Codepengallery-->
+      <div id="church-container">
+        <label for="vallbona">
+          <img src="images/AgendaCards/AgendaHeader1.png" alt>
+        </label>
+        <input type="radio" id="vallbona" name="churchy">
+        
+        <label for="woodward">
+          <img src="images/AgendaCards/AgendaHeader2.png">
+        </label>
+        <input type="radio" id="woodward" name="churchy" checked>
+        
+        <label for="woodward2">
+          <img src="images/spkr.jpg" alt></label>
+        <input type="radio" id="woodward2" name="churchy">
+        <div id="churches">
+          <figure id="monges">
+            <img src="images/AgendaCards/AgendaHeader1.png" alt="Speaker header image 1">
+          </figure>
+          <figure id="presby">
+            <img src="images/AgendaCards/AgendaHeader2.png" alt="Speaker header image 2">
+          </figure>
+          <figure id="presby2">
+            <img src="images/spkr.jpg" alt="Speaker header image 3">
+          </figure>
+        </div>
+      </div>
+      <!--Codepengallery-->
+      <div class="l-wrap">
+     		<div class="twohalfssection">
+     			<div class="breif">
+     			<h2>Project breif</h2>
+     			<p>An easy way for users to see what order speakers are presenting their presentations and be able to plan their day at the event. To be able to see the presentation title and abstract along</p>
+          <h3>Requirements</h3>
+          <p>Accommodate single track events and multiple track events</p>
+          <p>Each track could potentially have a different start time and end time.</p>
+          <p>Accommodate presentations that vary in duration e.g. one could be 20 mins another could be 1hr or any time period between</p>
+          <p>Two Presentation types.<br>Regular presentation with one speaker. Panel session with up to 4 panelist.</p>
+          <p>Minimum presentation length will be at least 20 minutes, but there is chairperson slot that will be 10 minutes long but doesnt need to contain a speaker</p>
+          <h3>Links</h3>
+          <p><a rel="stylesheet" target="_blank" type="text/css" href="https://www.theinnovationenterprise.com/summits/modern-data-management-summit-san-francisco/agenda">Three Track Event</a><br>This is a current 3 track agenda</p>
+          <p class="imagedescription">(the further into the future an event the less likley there will be an current speakers)</p>
+          <h3>Prototypes</h3>
+          <p><a rel="stylesheet" target="_blank" type="text/css" href="https://preview.uxpin.com/6adf236a32e425b33ce89284baafe6df1470ee58#/pages/67541104/simulate/no-panels?mode=i">UX PIN prototype</a><br>This is an early prototype to see how the fixed elements would work alongside the agenda</p>
+
+          <p><a rel="stylesheet" target="_blank" type="text/css" href="https://preview.uxpin.com/9098042a02fe81e8887736213d7744cdcfcabcb6#/pages/67593052/simulate/no-panels">UX PIN 5 track Agenda</a><br>This is an early prototype for a 5 track agenda</p>
           </div>
-        </div>
-   		<div class="twohalfssection">
-   			<div class="breif">
-   			<h2>Project breif</h2>
-   			<p>An easy way for users to see what order speakers are presenting their presentations and be able to plan their day at the event. To be able to see the presentation title and abstract along</p>
-        <h3>Requirements</h3>
-        <p>Accommodate single track events and multiple track events</p>
-        <p>Each track could potentially have a different start time and end time.</p>
-        <p>Accommodate presentations that vary in duration e.g. one could be 20 mins another could be 1hr or any time period between</p>
-        <p>Two Presentation types.<br>Regular presentation with one speaker. Panel session with up to 4 panelist.</p>
-        <p>Minimum presentation length will be at least 20 minutes, but there is chairperson slot that will be 10 minutes long but doesnt need to contain a speaker</p>
-        <h3>Links</h3>
-        <p><a rel="stylesheet" target="_blank" type="text/css" href="https://www.theinnovationenterprise.com/summits/modern-data-management-summit-san-francisco/agenda">Three Track Event</a><br>This is a current 3 track agenda</p>
-        <p class="imagedescription">(the further into the future an event the less likley there will be an current speakers)</p>
-        <h3>Prototypes</h3>
-        <p><a rel="stylesheet" target="_blank" type="text/css" href="https://preview.uxpin.com/6adf236a32e425b33ce89284baafe6df1470ee58#/pages/67541104/simulate/no-panels?mode=i">UX PIN prototype</a><br>This is an early prototype to see how the fixed elements would work alongside the agenda</p>
-   			</div>
-   			<div  class="mainbodytext">
-   			<h2>Initial thoughts</h2>
-   			<p>So my first thoughts were that there are two very different agendas that are needed, a single track agenda where there is only one row of presentations and a multi track agenda where there is multiple rows. The single track is definitely a lot simpler than a multi-track agenda. The multi-track agenda has so many more parts just by nature and these all must fit together perfectly</p>
-        <h2>the two types of agenda</h2>
-        <div class="halfwidthimg"><h3>Single Track</h3><img src="images/singletrack.jpg"><p class="imagedescription">The Single track agenda is linear, There is only one starting presentation and only one finishing presentaion</p></div>
-        <div class="halfwidthimg"><h3>Multi Track</h3><img src="images/multitrack.jpg"><p class="imagedescription">The Multi track is where multiple tracks run alongside each other and a delegate can move between tracks</p></div>
 
-        <h2>Time accurate cards</h2>
-        <p>One of the issues that I came across first was that these presentations didn’t always start or finish at the same time so this would have to be clear to the user.</p>
-        <div class="halfwidthimg"><h3>Not Time Accurate</h3><img src="images/nottimeaccurate.jpg"><hr style="background-color:#c12525;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>This could easily lead a user who was browsing through the agenda to believe that all these presentaions were the same length of time</p></div>
-        <div class="halfwidthimg"><h3>Time Accurate</h3><img src="images/timeaccurate.jpg"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;">Solution<br></span>This was a lot was easier for users to see the difference between the lengths of agenda</p>
-        </div>
+     			<div  class="mainbodytext">
+     			<h2>Initial thoughts</h2>
+     			<p>So my first thoughts were that there are two very different agendas that are needed, a single track agenda where there is only one row of presentations and a multi track agenda where there is multiple rows. The single track is definitely a lot simpler than a multi-track agenda. The multi-track agenda has so many more parts just by nature and these all must fit together perfectly</p>
+          <h2>the two types of agenda</h2>
+          <div class="halfwidthimg"><h3>Single Track</h3><img src="images/singletrack.jpg"><p class="imagedescription">The Single track agenda is linear, There is only one starting presentation and only one finishing presentaion</p></div>
+          <div class="halfwidthimg"><h3>Multi Track</h3><img src="images/multitrack.jpg"><p class="imagedescription">The Multi track is where multiple tracks run alongside each other and a delegate can move between tracks</p></div>
 
-        <h2>Mind the Gaps</h2>
-        <p>The vertical space between the presentations has to be taken into account, It has to be included as part of the presentation height otherwise it mucks up the time accuracy if there are different amount of presentations on each track</p>
-        <div class="halfwidthimg"><h3>Gaps independant from cards</h3><img src="images/gapsindependant.jpg"><hr style="background-color:#c12525;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>It looks like the 2nd Track finishes 5 mins earlier the more this happens the bigger the gap gets</p></div>
-        <div class="halfwidthimg"><h3>Gaps incorporated into cards</h3><img src="images/gapincorporated.jpg"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;">Solution<br></span>By including the gap within the presentation card everything starts and finishes where it should</p>
-        </div>
+          <h2>Time accurate cards</h2>
+          <p>One of the issues that I came across first was that these presentations didn’t always start or finish at the same time so this would have to be clear to the user.</p>
+          <div class="halfwidthimg"><h3>Not Time Accurate</h3><img src="images/nottimeaccurate.jpg"><hr style="background-color:#c12525;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>This could easily lead a user who was browsing through the agenda to believe that all these presentaions were the same length of time</p></div>
+          <div class="halfwidthimg"><h3>Time Accurate</h3><img src="images/timeaccurate.jpg"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;">Solution<br></span>This was a lot was easier for users to see the difference between the lengths of agenda</p>
+          </div>
 
-        <h2>The Trouble With Being Time accurate</h2>
-        <p>Every event has a registration period of around 1.5 hrs where delegates can come in and register then have breakfast, and at the end of day 1 their was a networking drinks that lasts potentially 2 hrs. The issue with these is that on a time accurate agenda takes up a lot of space, and looks like a delegate is paying for a day where the majority is registration or network drinks</p>
-        <div class="halfwidthimg"><h3>Big Breakfast</h3><img src="images/timeaccurate1.jpg"><hr style="background-color:#c12525;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>Showing a time accurate breakfast/registration really shows how big it is compared to a presentation, and could potentially put delegates off</p></div>
-        <div class="halfwidthimg"><h3>Hiding how big breakfast was</h3><img src="images/timeaccurate2.jpg"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;">Solution<br></span>Heads & Tails style slot<br>This alternate time slot is used to hide the amount of room an accurate timed registration or networking drinks will take up. It will only work at the start or end of a day. It is the only part of a multi track agenda that isnt time accurate</p>
-        </div>
+          <h2>Mind the Gaps</h2>
+          <p>The vertical space between the presentations has to be taken into account, It has to be included as part of the presentation height otherwise it mucks up the time accuracy if there are different amount of presentations on each track</p>
+          <div class="halfwidthimg"><h3>Gaps independant from cards</h3><img src="images/gapsindependant.jpg"><hr style="background-color:#c12525;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>It looks like the 2nd Track finishes 5 mins earlier the more this happens the bigger the gap gets</p></div>
+          <div class="halfwidthimg"><h3>Gaps incorporated into cards</h3><img src="images/gapincorporated.jpg"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;">Solution<br></span>By including the gap within the presentation card everything starts and finishes where it should</p>
+          </div>
 
-        <h2>Some times there just isn’t enough room</h2>
-        <p>When there is enough room to show a multiple tracks next to each other, as its alot easier to understand and plan a day, However when their isnt enough room to show tracks next to each other we revert back to the single track view with a tab down the left hand side to select which track the user wants</p>
-        <div class="fullwidthimg"><h3>Desktop</h3><img src="images/noroom1.1.jpg"><p class="imagedescription">This displays all the presentaions in a way that is easy to plan, however it doesnt fit on smaller screens</p></div>
-        <div class="halfwidthimg"><h3>Tablet</h3><img src="images/noroom2.1.jpg"><p class="imagedescription">Now there isnt enough room to display the presentations side by side. The agenda now turns into the single track view. The single track view display is more like the single track event but with a tab system to change which track is displaying</p></div>
-        <div class="halfwidthimg"><h3>Mobile</h3><img src="images/noroom3.1.jpg"><p class="imagedescription">The tab now becomes a dropdown for selecting which track is displaying</p></div>
+          <h2>The Trouble With Being Time accurate</h2>
+          <p>Every event has a registration period of around 1.5 hrs where delegates can come in and register then have breakfast, and at the end of day 1 their was a networking drinks that lasts potentially 2 hrs. The issue with these is that on a time accurate agenda takes up a lot of space, and looks like a delegate is paying for a day where the majority is registration or network drinks</p>
+          <div class="halfwidthimg"><h3>Big Breakfast</h3><img src="images/timeaccurate1.jpg"><hr style="background-color:#c12525;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>Showing a time accurate breakfast/registration really shows how big it is compared to a presentation, and could potentially put delegates off</p></div>
+          <div class="halfwidthimg"><h3>Hiding how big breakfast was</h3><img src="images/timeaccurate2.jpg"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;">Solution<br></span>Heads & Tails style slot<br>This alternate time slot is used to hide the amount of room an accurate timed registration or networking drinks will take up. It will only work at the start or end of a day. It is the only part of a multi track agenda that isnt time accurate</p>
+          </div>
 
-        <h2>The Two Card Types</h2>
-        <p>It was important to work out the different presentation card types, and how they would work across they 2 different agenda types</p>
-        <h3>Regular Presentaion Card</h3>
-        <p>This is where there is only one speaker and it is the most common presentation type and these typically last thirty minutes</p>
-        <div class="halfwidthimg"><h3>Single track regular card</h3><img src="images/AgendaCards/WireCardReg.png"><p class="imagedescription">The presentaion card opens up and pushes everything below it down</p></div>
-        <div class="halfwidthimg"><h3>Multi track Regular card</h3><img src="images/AgendaCards/WireCardRegMulti.png"><p class="imagedescription">As the presentation card cant slide down like on a single track, as that would throw everything off time that was below it, We used a modal to overcome this issue</p></div>
+          <h2>Some times there just isn’t enough room</h2>
+          <p>When there is enough room we show multiple tracks next to each other, as its alot easier to understand and plan a day, However when their isnt enough room to show tracks next to each other we revert back to the single track view with a tab down the left hand side to select which track the user wants</p>
+          <div class="fullwidthimg"><h3>Desktop</h3><img src="images/noroom1.1.jpg"><p class="imagedescription">This displays all the presentaions in a way that is easy to plan, however it doesnt fit on smaller screens</p></div>
+          <div class="halfwidthimg"><h3>Tablet</h3><img src="images/noroom2.1.jpg"><p class="imagedescription">Now there isnt enough room to display the presentations side by side. The agenda now turns into the single track view. The single track view display is more like the single track event but with a tab system to change which track is displaying</p></div>
+          <div class="halfwidthimg"><h3>Mobile</h3><img src="images/noroom3.1.jpg"><p class="imagedescription">The tab now becomes a dropdown for selecting which track is displaying</p></div>
 
-        <h3>Panel Session Presentaion Card</h3>
-        <p>A panel session where questions from the audience are put to a panel, There are typically 4 panelists, and these usually last one hour</p>
-        <div class="halfwidthimg"><h3>Single track Panel Session</h3><img src="images/AgendaCards/WireCardPanel.png"><p class="imagedescription">The presentaion card opens up and pushes everything below it down</p></div>
-        <div class="halfwidthimg"><h3>Multi track Panel Session</h3><img src="images/AgendaCards/WireCardPanelMulti.png"><p class="imagedescription">As the presentation card cant slide down like on a single track, as that would throw everything off time that was below it, We used a modal to overcome this issue</p></div>
+          <h2>The Two Card Types</h2>
+          <p>It was important to work out the different presentation card types, and how they would work across they 2 different agenda types</p>
+          <h3>Regular Presentaion Card</h3>
+          <p>This is where there is only one speaker and it is the most common presentation type and these typically last thirty minutes</p>
+          <div class="halfwidthimg"><h3>Single track regular card</h3><img src="images/AgendaCards/WireCardReg.png"><p class="imagedescription">The presentaion card opens up and pushes everything below it down</p></div>
+          <div class="halfwidthimg"><h3>Multi track Regular card</h3><img src="images/AgendaCards/WireCardRegMulti.png"><p class="imagedescription">As the presentation card cant slide down like on a single track, as that would throw everything off time that was below it, We used a modal to overcome this issue</p></div>
+
+          <h3>Panel Session Presentaion Card</h3>
+          <p>A panel session where questions from the audience are put to a panel, There are typically 4 panelists, and these usually last one hour</p>
+          <div class="halfwidthimg"><h3>Single track Panel Session</h3><img src="images/AgendaCards/WireCardPanel.png"><p class="imagedescription">The presentaion card opens up and pushes everything below it down</p></div>
+          <div class="halfwidthimg"><h3>Multi track Panel Session</h3><img src="images/AgendaCards/WireCardPanelMulti.png"><p class="imagedescription">As the presentation card cant slide down like on a single track, as that would throw everything off time that was below it, We used a modal to overcome this issue</p></div>
 
 
-        <h2>Card Concepts Hi Fidelity</h2>
-        <p>First attempt at putting some ideas together for the presentation cards</p>
+          <h2>Card Concepts Hi Fidelity</h2>
+          <p>First attempt at putting some ideas together for the presentation cards</p>
 
-        <h2 style="margin-bottom: 0px;">Concept Top Bar</h2>
-        <div class="halfwidthimg"><h3>Reg Presentation closed</h3><img src="images/AgendaCards/TopBar1.png"><h3>Reg Presentation Open</h3><img src="images/AgendaCards/TopBar2.png"><p class="imagedescription">The top bar works well on regular presentations with one speaker and leaves enough room for long names and job titles</p></div>
-        <div class="halfwidthimg"><h3>Panel Session closed</h3><img src="images/AgendaCards/TopBar1PanelB.png"><h3>Panel Session Open</h3><img src="images/AgendaCards/TopBar2PanelB.png"><p class="imagedescription">Fairly happy with this but with so little space on the multi track agenda this will not work</p></div>
+          <h2 style="margin-bottom: 0px;">Concept Top Bar</h2>
+          <div class="halfwidthimg"><h3>Reg Presentation closed</h3><img src="images/AgendaCards/TopBar1.png"><h3>Reg Presentation Open</h3><img src="images/AgendaCards/TopBar2.png"><p class="imagedescription">The top bar works well on regular presentations with one speaker and leaves enough room for long names and job titles</p></div>
+          <div class="halfwidthimg"><h3>Panel Session closed</h3><img src="images/AgendaCards/TopBar1PanelB.png"><h3>Panel Session Open</h3><img src="images/AgendaCards/TopBar2PanelB.png"><p class="imagedescription">Fairly happy with this but with so little space on the multi track agenda this will not work</p></div>
 
-        <h2 style="margin-bottom: 0px;">Concept Top Stripe</h2>
-        <div class="halfwidthimg"><h3>Reg Presentation closed</h3><img src="images/AgendaCards/TopStripe1.png"><h3>Reg Presentation Open</h3><img src="images/AgendaCards/TopStripe2.png"><p class="imagedescription">The speaker profile picture and the presentation time get closer together as the screen width reduces</p></div>
-        <div class="halfwidthimg"><h3>Panel Session closed</h3><img src="images/AgendaCards/TopStripe1Panel.png"><h3>Panel Session Open</h3><img src="images/AgendaCards/TopStripe2Panel.png"><p class="imagedescription">Panle Session open suffers with speaker headshot being repeated as there isnt enough room to have the names near the top stripe, and didnt want the headshots to disapear and leave an empty top stripe</p></div>
+          <h2 style="margin-bottom: 0px;">Concept Top Stripe</h2>
+          <div class="halfwidthimg"><h3>Reg Presentation closed</h3><img src="images/AgendaCards/TopStripe1.png"><h3>Reg Presentation Open</h3><img src="images/AgendaCards/TopStripe2.png"><p class="imagedescription">The speaker profile picture and the presentation time get closer together as the screen width reduces</p></div>
+          <div class="halfwidthimg"><h3>Panel Session closed</h3><img src="images/AgendaCards/TopStripe1Panel.png"><h3>Panel Session Open</h3><img src="images/AgendaCards/TopStripe2Panel.png"><p class="imagedescription">Panle Session open suffers with speaker headshot being repeated as there isnt enough room to have the names near the top stripe, and didnt want the headshots to disapear and leave an empty top stripe</p></div>
 
-        <h2 style="margin-bottom: 0px;">Concept Side Bar</h2>
-        <div class="halfwidthimg"><h3>Reg Presentation closed</h3><img src="images/AgendaCards/Square1.png"><h3>Reg Presentation Open</h3><img src="images/AgendaCards/Square2.png"><p class="imagedescription">Failry happy with this on a regular presentation the open card could potentially display speakers social media links in the expanded side bar</p></div>
-        <div class="halfwidthimg"><h3>Panel Session closed</h3><img src="images/AgendaCards/Square1Panel.png"><img src="images/AgendaCards/Square1PanelB.png"><h3>Panel Session Open</h3><img src="images/AgendaCards/Square2Panel.png"><p class="imagedescription">The panel session closed just doesnt look right with the four speaker headshots</p></div>
+          <h2 style="margin-bottom: 0px;">Concept Side Bar</h2>
+          <div class="halfwidthimg"><h3>Reg Presentation closed</h3><img src="images/AgendaCards/Square1.png"><h3>Reg Presentation Open</h3><img src="images/AgendaCards/Square2.png"><p class="imagedescription">Failry happy with this on a regular presentation the open card could potentially display speakers social media links in the expanded side bar</p></div>
+          <div class="halfwidthimg"><h3>Panel Session closed</h3><img src="images/AgendaCards/Square1Panel.png"><img src="images/AgendaCards/Square1PanelB.png"><h3>Panel Session Open</h3><img src="images/AgendaCards/Square2Panel.png"><p class="imagedescription">The panel session closed just doesnt look right with the four speaker headshots</p></div>
 
-        <h2 style="margin-bottom: 0px;">Plain Vanilla</h2>
-        <div class="halfwidthimg"><h3>Reg Presentation closed</h3><img src="images/AgendaCards/Plain1.png"><h3>Reg Presentation Open</h3><img src="images/AgendaCards/Plain2.png"><p class="imagedescription">This was by far the most vanilla option however with all of the space constraints of the multi track agenda cards this could be the only option availbale</p></div>
-        <div class="halfwidthimg"><h3>Panel Session closed</h3><img src="images/AgendaCards/Plain1Panel.png"><h3>Panel Session Open</h3><img src="images/AgendaCards/Plain2Panel.png"><p class="imagedescription">The card slides open the same as a regular presentaion to reveal the panelists names</p></div>
+          <h2 style="margin-bottom: 0px;">Plain Vanilla</h2>
+          <div class="halfwidthimg"><h3>Reg Presentation closed</h3><img src="images/AgendaCards/Plain1.png"><h3>Reg Presentation Open</h3><img src="images/AgendaCards/Plain2.png"><p class="imagedescription">This was by far the most vanilla option however with all of the space constraints of the multi track agenda cards this could be the only option availbale</p></div>
+          <div class="halfwidthimg"><h3>Panel Session closed</h3><img src="images/AgendaCards/Plain1Panel.png"><h3>Panel Session Open</h3><img src="images/AgendaCards/Plain2Panel.png"><p class="imagedescription">The card slides open the same as a regular presentaion to reveal the panelists names</p></div>
 
-        <h2>Time equals height</h2>
-        <p>So I knew that space in the time relative cards would be limited but wanted to get a better idea of this, I tested out a few different scales and padding options but this worked the best</p>
-        <div class="fullwidthimg"><h3>Time Scale 1min:6px</h3><img src="images/AgendaCards/TimeScaleC.png"><p class="imagedescription">There really isnt too much room for decoration, and I think it needs to be consistent from single track view to multi track view. So the plain option is looking like a winner at the moment</p></div>
-        
+          <h2>Time equals height</h2>
+          <p>So I knew that space in the time relative cards would be limited but wanted to get a better idea of this, I tested out a few different scales and padding options but this worked the best</p>
+          <div class="fullwidthimg"><h3>Time Scale 1min:6px</h3><img src="images/AgendaCards/TimeScaleC.png"><p class="imagedescription">The job title was removed to free up some space, (Appears once the card is opened) But there really isnt too much room for decoration, and I think it needs to be consistent from single track view to multi track view. So the plain option is looking like a winner at the moment</p></div>
+          
 
-        <h2>Schwarzenegger Vs Bono</h2>
-        <p>I wanted to test how a large speaker name, job title & company sits next to the opposite a short name, job title and company. Enter Arnie & Bono</p>
-        <div class="halfwidthimg"><h3>Logo at the bottom</h3><img src="images/ArnieWrong.jpg"><hr style="background-color:#c12525;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>The Logo at the bottom of the card makes the size of the gap more noticable</p></div>
-        <div class="halfwidthimg"><h3>Text Logo Sandwich</h3><img src="images/ArnieRight.jpg"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;"> Solution<br></span>The Logo being put between the text lets the space be spread more evenly</p></div>
-        
-   			
+          <h2>Schwarzenegger Vs Bono</h2>
+          <p>I wanted to test how a large speaker name, job title & company sits next to the opposite a short name, job title and company. Enter Arnie & Bono</p>
+          <div class="halfwidthimg"><h3>Logo at the bottom</h3><img src="images/ArnieWrong.jpg"><hr style="background-color:#c12525;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>The Logo at the bottom of the card makes the size of the gap more noticable</p></div>
+          <div class="halfwidthimg"><h3>Text Logo Sandwich</h3><img src="images/ArnieRight.jpg"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;"> Solution<br></span>The Logo being put between the text lets the space be spread more evenly</p></div>
+          
+     			
 
         </div>
    		</div>
-
-	</header>
     
 	</body>
 </html>
