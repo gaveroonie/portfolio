@@ -76,7 +76,7 @@ img{
   max-width: 100%;
 }
 h1{
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
 	font-size: 50px;
   line-height: 40px;
@@ -189,6 +189,12 @@ hr {
   margin: 20px 2% 10px;;
   display: inline-grid;
 }
+.quarterwidthimg{
+  width: 44%;
+  height: auto;
+  margin: 20px 2% 10px;;
+  display: inline-grid;
+}
 .imagedescription{
     font-size: 14px;
     line-height: 19px;
@@ -213,6 +219,12 @@ hr {
     margin:2%;
     display: inline-grid;
   }
+  .quarterwidthimg{
+    width: 20%;
+    height: auto;
+    margin: 20px 2% 10px;;
+    display: inline-grid;
+}
   	.twohalfssection{
 	    display: flex;
 	    width: 100%;
