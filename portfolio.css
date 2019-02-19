@@ -178,6 +178,12 @@ hr {
 	display:inline-block;
 	max-width: 433px;
 }
+.superwidthimg{
+  width: 100%;
+  height: auto;
+  margin: 20px 2% 10px;
+  display: inline-grid;
+}
 .fullwidthimg{
   margin:20px auto 10px auto;
 	width: 95%;
@@ -213,6 +219,11 @@ hr {
     line-height: 77px;
 	  margin: 0px 0 25px -4px;
 	}
+  .superwidthimg{
+  margin:20px auto 10px auto;
+  width: 95%;
+  height: auto;
+  } 
   .halfwidthimg{
     width: 44%;
     height: auto;
@@ -224,7 +235,7 @@ hr {
     height: auto;
     margin: 20px 2% 10px;;
     display: inline-grid;
-}
+  }
   	.twohalfssection{
 	    display: flex;
 	    width: 100%;
