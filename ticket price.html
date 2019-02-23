@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+  <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="headerimages.css">
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="https://use.typekit.net/bjk2aea.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<title>Ticket Price Page</title>
+</head>
+
+<body>
+    <header style="height:82px">
+      <div class="header" id="myHeader">
+        <div class="l-wrap">
+          <div class="logo">
+          <a href="index.html">
+            <img src="images/uxlogo.svg" lt="UXlogo" width="223" height="56" onerror="this.onerror=null; this.src='images/uxlogo.png'">
+          </a>
+          </div>
+        </div>
+      <div>
+    </header>
+		<div class="l-wrap">
+
+   			<h4>project: Event Site Redesign</h4>
+   			<h1>Ticket Price Page</h1>
+
+    </div>
+      <!--Codepengallery-->
+      <div id="church-container">
+        <label for="image1">
+          <img src="images/Price/Header1.png" alt>
+        </label>
+        <input type="radio" id="image1" name="churchy">
+        
+        <label for="image2">
+          <img src="images/Price/Polished.png">
+        </label>
+        <input type="radio" id="image2" name="churchy" checked>
+        
+        <label for="image3">
+          <img src="images/Price/Headerwire.png" alt></label>
+        <input type="radio" id="image3" name="churchy">
+
+        <div id="churches">
+          <figure id="image1lrge">
+            <img src="images/Price/Header1.png" alt="Speaker header image 1">
+          </figure>
+          <figure id="image2lrge">
+            <img src="images/Price/Polished.png" alt="Speaker header image 2">
+          </figure>
+          <figure id="image3lrge">
+            <img src="images/Price/Headerwire.png" alt="Speaker header image 3">
+          </figure>
+        </div>
+      </div>
+      <!--Codepengallery-->
+      <div class="l-wrap">
+     		<div class="twohalfssection">
+     			<div class="breif">
+     			<h2>Project brief</h2>
+     			<p>An easy way for users to see the difference between tickets options </p>
+          <h3>Requirements.</h3>
+          <p>Must clearly show the all ticket options and the benefits of each one<br>
+          Must fit in with TITO capabilities the 3rd party company we use to process credit cards<br>
+          Must be able to highlight 1 ticket “most popular”.</p>
+          <h3>Links</h3>
+          <p><a rel="stylesheet" type="text/css" target="_blank" href="https://www.theinnovationenterprise.com/summits">Calendar</a><br>
+          Pick an event and click buy ticket (But you don't actually have to buy a ticket :).</p>
+     			</div>
+          <!--MAINBODY-->
+     			<div  class="mainbodytext">
+     			<h2>Initial Thoughts</h2>
+     			<p>The first thing that I did was look at the original ticket page to see what could be improved on.</p>
+          <p>Check out and payment process is handled by a 3rd party company called Tito, So everything after the user clicks a ticket is handled by Tito.</p>
+          <div class="fullwidthimg"><h3>Original Ticket Page</h3><img src="images/Price/Original.png">
+          </div>
+
+          <div style="background-color: #f1f1f1;padding: 80px;width: 100%;margin-left: -80px;">
+            <h2 style="font-size:34px;line-height:34px;margin-top: 0px;">Identifying problems</h2>
+            <p>After the first round of observations it became apparent there are two main issues that need improving on.</p>
+            <h3>Problem 1: too may ticket types</h3>
+            <p>The amount of different ticket options makes it difficult to choose between and leads to users taking too much time to decide which ticket to buy and not buying anything, also know as analysis paralysis.</p>
+            <p>In fact after speaking to every department within the company, no body could correctly tell me the difference with out making at least one error, Except sales dept who dealt with people on the phone everyday going through the ticket options. So if people within the company found it confusing then I didn't hold out much hope for users.</p><p>Reducing the amount of tickets is not something I can do with out buy in from senior management </p>
+            <h3>Problem 2: not easy to compare</h3>
+            <p>The second problem is related to the first in that reducing the amount of tickets would also make it easier to compare, but there are some other aspects that make it difficult to compare as well.</p>
+            <p>Firstly the way the ticket table is laid out, A vertical layout makes it harder to compare, as each ticket component is on a new line so the eye cant just scan across to the next ticket, instead it has to scan up then down again. As we read horizontally we become used to scanning text this way, scanning up and down doesn’t come as naturally.</p>
+            <p>Also it seems like the amount of descriptive text on each ticket is made to look as much as possible I think this was intentional as a sales technique to look like you get a lot for your ticket.</p>
+          </div>
+
+          <h2>What are all of these tickets?</h2>
+          <p>There are potentially six different ticket types for a single event, I wanted to give an easier breakdown of these tickets to see what they were made up. It turns out they are just different combinations of three different components.</p>
+          <h3>Components of a ticket</h3>
+          <div class="fullwidthimg"><img src="images/Price/TicketComponents.png"><hr style="width: 70%;margin-left: 34%;background-color:#888888;"></hr><p style="width: 70%;margin-left: 34%;" class="imagedescription">If you get access to all of OnDemand that will include the single event automatically, So the single event access is just like a restricted access to OnDemand</p>
+          </div>
+          <div class="fullwidthimg"><img style="max-width: 500px;width: 100%;margin-bottom:30px;" src="images/Price/TicketComponents2.png">
+          </div>
+
+          <div style="background-color: #f1f1f1;padding: 80px;width: 100%;margin-left: -80px;">
+            <h2 style="font-size:34px;line-height:34px;margin-top: 0px;">Solutions</h2>
+            <h2>Layout</h2>
+            <p>Having the tickets laid out vertically in a table makes it difficult to compare as you have to constantly move keep reading back and forth between new lines</p><p>Making a comparison table makes it a lot easier to compare</p>
+            <div class="halfwidthimg"><h3>Ticket Cards</h3><img src="images/Price/Layout1.png"><p>Cards improve the ability to scan across but work best when there is three or four, when there is six its a little more difficult</p>
+            </div>
+            <div class="halfwidthimg"><h3>Comparison Table</h3><img src="images/Price/Layout2.png"><p>Comparison table really helps when there is a lot of different points to compare, but is overkill if there are only 1 or two points to compare.</p>
+            </div>
+            
+            <h2>Salesy descriptions</h2>
+            <p>Looking at the descriptions for each ticket I feel that they can be simplified, there are points on the tickets that can be combined or totally removed</p>
+            <div class="halfwidthimg"><h3>Original descriptions</h3><img src="images/Price/Sale1.png">
+            </div>
+            <div class="halfwidthimg"><h3>shortened descriptions</h3><img src="images/Price/Sale2.png">
+            </div>
+          </div>
+          <h2>Lo Fi Concepts</h2>
+          <p>I felt I had done enough research on the shortcomings of the old page that I could start coming up with some solutions for the new price page, if there was going to be a reduction in the amount of tickets was still up in the air, so I proceeded as if we were keeping all of the tickets.</p>
+          <div class="halfwidthimg"><h3>Table concept</h3><img src="images/Price/Lofi1.png">
+          </div>
+          <div class="halfwidthimg"><h3>shortened descriptions</h3><img src="images/Price/Lofi2.png">
+          </div>
+
+          <h2>Not all cards are equal</h2>
+          <p>I wanted to explore my options on what I could do with the ticket cards, So after speaking to the sales team I found that the lowest sales were OnDemand and 1 day passes and they were both in single figures for the year, The top revenue was made off of three main tickets Silver, Gold and Diamond</p>
+
+          <h2>On Demand</h2>
+          <p>On Demand is one of our other sites, where we sell subscriptions to get access to our video library of all our event recordings and presentation slides.<br>This is ticket is purely for people who can't make the event and want to buy the recorded presentations and slides of the event. Sales of these tickets were extremely low.<br></p>
+          <div class="halfwidthimg"><h3>On Demand Card</h3><img style="max-width: 200px;width: 100%;" src="images/Price/ODpass.png"><hr style="background-color:#dd3907;max-width: 200px;margin-left: 0;"></hr><p class="imagedescription incorrect" style="max-width: 200px;margin-left: 0;"><span style="font-weight:bold;font-size:20px;">Problem<br></span>Make this ticket secondary to the other tickets, but still available from the pricing page.</p></div>
+          <div class="halfwidthimg"><h3>Replacing with a link</h3><img src="images/Price/ODpass2.png"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;"> Solution<br></span>Removing the On Demand Card removes one of the pricing cards but still lets a user know that there is an option if they can't physically make the event.</p></div>
+
+          <h2>1 Day Pass</h2>
+          <p>So the one day pass is identical to the silver pass except for it only gives access to one day of the event, after this pass is selected Tito allowed the sales team to put add ons to that pass that are equal to a one day pass for every ticket type.</p>
+          <h3>New Ticket Components</h3>
+          <div class="halfwidthimg" style="width:25%"><img style="max-width: 500px;width: 100%;" src="images/Price/OneDay1.png"><hr style="background-color:#dd3907;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>The one day pass takes up a ticket card and space on the table but is the same as a one day silver pass.</p>
+          </div>
+          <div class="halfwidthimg" style="width:60%"><img style="max-width: 500px;width: 100%;" src="images/Price/OneDay2.png"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;"> Solution<br></span>Adding the one day pass as a secondary option to a the other tickets means it doesn't need a separate card, or to go onto the table.</p>
+          </div>
+
+          <h2>Analysis Paralysis</h2>
+          <p>Whilst I waited for management to consider my ideas about reducing the amount of tickets I went ahead and continued to see what a page with every ticket type would look like. Firstly without any of the recent changes, then with the changes<br>
+          When there are too many options to choose from, it becomes difficult to process exactly what it is you want.</p>
+          <div class="halfwidthimg" ><img src="images/Price/HiFi1.png"><hr style="background-color:#dd3907;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>So this is a single track event (so no AAA pass)here is all the ticket options displayed equally, Its definitely easier to compare than the original</p>
+          </div>
+          <div class="halfwidthimg" ><img src="images/Price/HiFi2.png"><hr style="background-color:#80b91e;"></hr><p class="imagedescription correct"><span style="font-weight:bold;font-size:20px;"> Solution<br></span>This is the mock up with the three main ticket types displayed prominently and the other 2 still available but less prominent</p>
+          </div>
+
+        
+   			</div>
+      </div>
+    </div>
+    <div class="l-wrap"  style="width:80%;"> 
+      <h2  style="font-size: 38px;text-align: center;line-height: 33px;">Hi Fidelity Tickets Price Page</h2>
+      <div class="superwidthimg" style="width:100%;"><img src="images/Price/Polished.png"></div>
+
+    <div class="l-wrap" style="max-width:900px"> 
+      <h2>Working Ticket Price Page Prototype</h2>
+      <p>After making the high fidelity concepts I was lucky enough to have a developer, code a working prototype, the complexity of the different tracks was too much to build in a prototyping application like UXPin or invision.</p>
+    </div>
+      <div class="superwidthimg" style="width:100%;"><h3>working 3 track prototype</h3><video style="width:100%;" autoplay controls loop preload:auto><source src="images/Price/Ticket.mp4" type="video/mp4" width="100%" ></video></div>
+    </div>
+        
+    
+</body>
+</html>

@@ -87,7 +87,7 @@ p{
   color:#6a9919 !important;
 }
 .incorrect{
-  color:#a42424 !important;
+  color:#dd3907 !important;
 }
 hr {
   width: 100%;
@@ -103,8 +103,6 @@ hr {
 }
 .logo{
 	max-width: 100%;
-  text-align: center;
-  margin: auto;
 }
 .breif{
 	width: 100%;
@@ -161,9 +159,10 @@ hr {
     font-style: normal;
 }
 .header {
-  padding: 10px 16px;
-  background: #ffffff90;
-  color: #ffffff;
+    max-width: 350px !important;
+    padding: 16px 0px;
+    background: #ffffff90;
+    color: #ffffff;
 }
 
 .content {
@@ -171,11 +170,12 @@ hr {
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  right: -16px;
-  width: 100%;
-  z-index: 100;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 8px;
+    width: 100%;
+    z-index: 100;
 }
 .sticky + .content {
   padding-top: 150px;

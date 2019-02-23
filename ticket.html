@@ -69,8 +69,7 @@
           Must be able to highlight 1 ticket “most popular”.</p>
           <h3>Links</h3>
           <p><a rel="stylesheet" type="text/css" target="_blank" href="https://www.theinnovationenterprise.com/summits">Calendar</a><br>
-          Pick an event and click buy ticket (But you dont actually have to buy a ticket :).<br>
-          <span class="imagedescription">(the further into the future an event the less likely there will be an current speakers).<span></p>
+          Pick an event and click buy ticket (But you dont actually have to buy a ticket :).</p>
      			</div>
      			<div  class="mainbodytext">
      			<h2>Initial Thoughts</h2>
@@ -80,10 +79,24 @@
           </div>
           <div class="halfwidthimg"><h3>Tito Handling Payments</h3><p>We use a third party company called Tito to handle the payments for our tickets. A widget from tito is inserted into the pricing page so any changes will have to take this into account, Also anything after the user clicks continue is set by Tito so can't really be changed.</p><br><h3>Payment Checkout</h3><img src="images/Price/OldPricePagePayment.png">
           </div>
+
+          <h2>Identifying problems</h2>
+          <p>After the first round of user testing it became apparent there are two main issues that need improving on.</p>
+          <h3>Problem 1: too may ticket types</h3>
+          <p>The amount of different ticket options makes it difficult to choose between and leads to users taking too much time to decide which ticket to buy.</p>
+          <h3>Problem 2: not easy to compare</h3>
+          <p>The second problem is that its not easy to compare the ticket types there are a few reasons for this.</p>
+          <p>Firstly the way the ticket table is laid out, A vertical layout makes it harder to compare as each ticket because all its components are on a new line so the eye cant just scan across to the next ticket, instead it has to scan up then down again. As we read horizontally we become used to scanning text this way, scanning up and down doesn’t come as naturally.</p>
+          <p>Also it seems like the amount of descriptive text on each ticket is made to look as much as possible I think this was intentional as a sales technique to look like you get alot for your ticket.</p>
+          <div class="halfwidthimg"><h3>Vertical payment table</h3><img src="images/Price/Oldtable.png">
+          </div>
+          <div class="halfwidthimg"><h3>Changing to a horizontal layout</h3><img src="images/Price/wirecards.png"><p class="imagedescription">By changing the layout from vertical columns to horizontal columns it makes it easier to compare</p>
+          </div>
+
           <h2>What are all of these tickets?</h2>
           <p>There are potentially six different ticket types for a single event, I wanted to give an easier breakdown of these tickets to see what they were made up. It turns out they are just different combinations of three different components.</p>
           <h3>Components of a ticket</h3>
-          <div class="fullwidthimg"><img src="images/Price/TicketComponents.png">
+          <div class="fullwidthimg"><img src="images/Price/TicketComponents.png"><p style="width: 70%;margin-left: 34%;" class="imagedescription">If you get access to all of OnDemand that will include the single event automatically, So the single event access is just like a restricted access to OnDemand</p>
           </div>
           <div class="fullwidthimg"><img style="max-width: 500px;width: 100%;" src="images/Price/TicketBreakdown.png">
           </div>
@@ -98,13 +111,16 @@
           <h2>Analysis Paralysis</h2>
           <p>Whilst I waited for management to consider my ideas I went ahead and continued to see what a page with every ticket type would look like. This would also give them an idea of what a new ticket page would look like with six ticket types.<br>
           When there are too many options to choose from, it becomes difficult to process exactly what it is you want.</p>
-          <div class="fullwidthimg"><h3>Ticket cards</h3><img src="images/Price/AnalysisPolarisis.png"><h3>Ticket Table Comparison</h3>
+          <div class="fullwidthimg"><h3>If we have to keep all the ticket types</h3><img src="images/Price/AnalysisPolarisis.png"><h3>Ticket Table Comparison</h3>
           <img src="images/Price/AnalysisPolarisisTable.png"><hr style="background-color:#dd3907;"></hr><p class="imagedescription incorrect"><span style="font-weight:bold;font-size:20px;">Problem<br></span>Having 6 ticket types for a single event is overkill and leads to bottlenecks at the pricing page. The table does help to compare however it is still too complicated and trying to make it clear on mobile will be challenging.</p></div>
 
           <h2>Reducing the amount of ticket options</h2>
           <p>I tried to make a proposal to reduce the amount of ticket types, So this could potentially make a huge positive difference and increase sales or have a huge negative impact and reduce the amount of sales, So a cautious approach was taken.</p>
-          <div class="fullwidthimg"><img src="images/Price/Proposal.png">
-          </div>
+          <div class="fullwidthimg"><img src="images/Price/TicketComponents.png">
+          <div class="halfwidthimg imagedescription"><p style="width: 70%;margin-left: 0%;">Access to the event is the main part of the ticket</p></div>
+          <div class="halfwidthimg imagedescription">
+          <p style="width: 70%;margin-left: 39%;">Access to the event is the main part of the ticket</p>
+          </div></div>
 
           <h2>On Demand</h2>
           <p>On Demand is one of our other sites, where we sell subscriptions to get access to our video library of all our event recordings and presentation slides.<br>This is ticket is purely for people who can't make the event and want to buy the recorded presentations and slides of the event. Sales of these tickets were extremely rare.<br></p>
