@@ -15,11 +15,29 @@ a:hover h1:hover {
   color:#000000;
   
 }
+
 /* selected link */
 a:active {
   color:#00b4ff;
   text-decoration:none !important;
 }
+#logo {
+  -webkit-filter: grayscale(0%);
+    -webkit-transition: .1s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .1s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .1s ease-in-out;
+}
+
+#logo:hover {
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .1s ease-in-out;
+    -moz-filter: grayscale(100%); 
+    -moz-transition: .1s ease-in-out;
+    -o-filter: grayscale(100%); 
+    -o-transition: .1s ease-in-out;
+} 
 
 img{
   max-width: 100%;
@@ -159,7 +177,8 @@ hr {
     font-style: normal;
 }
 .header {
-    max-width: 350px !important;
+  text-align: center;
+    max-width: 100%;
     padding: 16px 0px;
     background: #ffffff90;
     color: #ffffff;
@@ -170,7 +189,7 @@ hr {
 }
 
 .sticky {
-    max-width: 100%;
+    max-width: 350px;
     position: fixed;
     top: 0;
     left: 8px;
