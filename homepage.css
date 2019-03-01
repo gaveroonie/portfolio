@@ -40,10 +40,7 @@
 	margin-top: -21%;
 }
 .threecolumntext {
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
-  column-count: 1;
-  column-gap: 40px;
+  width: 90%;
   margin:30px; 
 }
 @media (min-width: 550px){
@@ -82,7 +79,8 @@
     display: flex;
 }
 .threecolumntext {
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
+  width: 27%;
+  max-width: 800px;
+  margin:30px; 
+  display: inline-grid;
 }
