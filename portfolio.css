@@ -130,15 +130,6 @@ hr {
 	width: 100%;
 	box-sizing: border-box;
 }
-.agendabanner{
-	background: rgb(0, 0, 0, 0.2);
-	background-image:url("images/AgendaVideo2.1.gif");
-	min-height:400px;
-	background-size:cover;
-	background-position: center;
-	text-align: center;
-	padding: 50px 0px 50px 0px;
-}
 .centerheader{
 	display:inline-block;
 	max-width: 433px;
@@ -176,7 +167,7 @@ hr {
     font-weight: 400;
     font-style: normal;
 }
-.header {
+.logoheader {
   text-align: center;
     max-width: 100%;
     padding: 16px 0px;

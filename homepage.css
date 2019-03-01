@@ -1,0 +1,88 @@
+.homepageheader{
+	width: 100%;
+}
+.lefthalf {
+	flex: 1;
+    width: 100%;
+    padding: 6%;
+    box-sizing: border-box;
+    background: #222222;
+}
+.righthalf {
+	width: 100%;
+  	background-image: url("images/Homepage/edgecirclehori.svg"), url("images/Homepage/desk.png");
+  	background-position: top, left;
+    background-size:contain, cover;
+    min-height: 150px;
+    background-repeat: no-repeat, repeat;
+}
+.textboxhalf {
+    width: 100%;
+    padding: 6%;
+    box-sizing: border-box;
+}
+.profile{
+	border-radius:50%;
+	margin: auto;
+    display: flex;
+}
+.white{
+	color:white;
+	text-align:center !important;
+}
+ .circle {
+	width: 1200px;
+	height: 1200px;
+	background: red;
+	border-radius: 50%;
+	position: fixed;
+	margin-left: -600px;
+	margin-top: -21%;
+}
+.threecolumntext {
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
+  column-gap: 40px;
+  margin:30px; 
+}
+@media (min-width: 550px){
+.lefthalf {
+	flex: 1;
+    min-width: 40%;
+    min-height: 400px;
+    background:#222222;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 100px;
+}
+.righthalf {
+	width: 100%;
+  	background-image: url("images/Homepage/edgecircle.svg"), url("images/Homepage/desk.png");
+  	background-position:left, left;
+    background-size:contain, cover;
+    min-height: 800px;
+    background-repeat: no-repeat, repeat;
+}
+.homepageheader{
+	width: 100%;
+	display: flex;
+	width: 100%;
+	min-height: 800px;
+}
+.white{
+	color:white;
+	text-align:left;
+	position: absolute;
+    max-width: 30%;
+}
+.profile {
+    border-radius: 50%;
+    margin: 100px  0px 0px;
+    display: flex;
+}
+.threecolumntext {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
