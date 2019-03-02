@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="flex.css">
     <script src="javascript.js" defer></script>
     <link rel="stylesheet" href="https://use.typekit.net/bjk2aea.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
@@ -27,8 +29,8 @@
       <div class="lefthalf">
           <img class="profile" src="images/homepage/profile.png"></img>
             <div class="white">
-            <h2 style="color:#ffffff;font-size:46px;line-height:44px;">UX / UI DESIGNER</h2>
-            <p style="color:#999999;font-size:20px;line-height:28px;">HI I’m Gavin, I am a multi disciplined designer specialising in UX & UI design</p>
+            <h2 class="center" style="color:#ffffff;font-size:46px;line-height:44px;">UX / UI DESIGNER</h2>
+            <p class="center" style="color:#999999;font-size:20px;line-height:28px;">Hi I’m Gavin, I am a multi disciplined designer specialising in UX & UI design</p>
             </div>
       </div>
       <div class="righthalf">
@@ -36,59 +38,349 @@
     </div>
     <!--endofheader-->
     <!--startofabouttext-->
-    <div style="max-width:900px;width:60%;margin:80px auto;">
+    <div class="l-wrap section" style="max-width:900px;">
         <h2 style="text-align:center;font-size:46px;line-height:44px;">About Me</h2>
-        <p style="text-align:center;color:#999999;font-size:22px;line-height:30px;">I currently work as the sole UX designer in an in-house web development team at the Innovation Enterprise. My role involves designing new product websites and Improving the user experience on our existing websites and covers pretty much all design aspects of building a site. Whilst working closely with the developers to implement these changes</p>
+        <p style="text-align:center;color:#999999;font-size:20px;line-height:30px;">I currently work as the sole UX designer in an in-house web development team at the Innovation Enterprise. My role involves designing new product websites and Improving the user experience on our existing websites and covers pretty much all design aspects of building a site. Whilst working closely with the developers to implement these changes</p>
     </div>
     <!--endofabouttext-->
-    <!--startofskillstext-->
-    <div style="background-color:#f9f9f9;margin: 80px auto;padding: 80px 15%;">
-      <h2 style="text-align:left;font-size:46px;line-height:44px;">Skills</h2>
-      <p style="text-align:left;color:#656363;font-size:22px;line-height:30px;">I am a multi disciplined designer so have skillset across more than just UX / UI. I am also an active member of a few maker communities and own a laser cutter, CNC router,vinyl cutter and desktop vacuum former
-      </p>
-      <div>
-        <ul>
-          <div class="threecolumntext">
-          <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px">UX/UI Skills</h3>
-            <li>User Interviews</li>
-            <li>User Research, Quantitate & Qualitative</li>
-            <li>Identifying problem areas</li>
-            <li>Conceptualising Solutions</li>
-            <li>Site Plan</li>
-            <li>Information Architiecture</li>
-            <li>Wire frames</li>
-            <li>Concepts low fidelity - high fidelity</li>
-            <li>Working prototyes</li>
-            <li>User testing prototypes</li>
-            <li>Style Guides</li>
-          </div>
-          <div class="threecolumntext">
-          <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">html / css</h3>
-            <li>I am at a fairly high skill level (for a designer, probably around a junior developer level), I am more than comfortable coding responsive emails and landing pages</li>
-          <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">Graphic design</h3>
-            <li>Logo design</li>
-            <li>Brand development</li>
-            <li>Advertisement, Digital + Print</li>
-            <li>Banner Design</li>
-            <li>Editorial Design</li>
-            <li>Business Card Design</li>
-          <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">3D design</h3>
-            <li>Laser cutting (I have my own laser cutter)</li>
-            <li>CNC Routing (I have my own CNC Router)</li>
-            <li>Vinyl Decals (I have my own vinyl cutter)</li>
-          </div>
-          <div class="threecolumntext">
-            <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">Marketing</h3>
-            <li>I designed and coded all the marketing email and landing page templates.</li>
-            <li>I put together a best practice guide for marketing to use these templates effectively and test them across all mail clients before sending</li>
-            <li>I worked on Pardot and Marketo marketing systems and have extensive knowledge about how to utilise these</li>
-            <li>Dynamic Content for emails and landing pages</li>
-            <li>Lead capture, how to utilise progressive forms fields, Dependant form fields</li>
-        </ul>
+    <!--startofgridskillstext-->
+    <div style="background-color:#f9f9f9;">
+      <div class="l-wrap section">
+        <h2 style="text-align:left;font-size:46px;line-height:44px;">Skills</h2>
+        <p style="text-align:left;color:#656363;font-size:20px;line-height:30px;max-width: 1200px;">I am a multi disciplined designer so have skillset across more than just UX / UI. I am also an active member of a few maker communities and own a laser cutter, CNC router,vinyl cutter and desktop vacuum former
+        </p>
+        <div class="grid3">
+            <div class="item1">
+              <ul>
+              <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px">UX/UI Skills</h3>
+                <li>User Interviews</li>
+                <li>User Research, Quantitate & Qualitative</li>
+                <li>Identifying problem areas</li>
+                <li>Conceptualising Solutions</li>
+                <li>Site Plan</li>
+                <li>Information Architiecture</li>
+                <li>Wire frames</li>
+                <li>Concepts low fidelity - high fidelity</li>
+                <li>Working prototyes</li>
+                <li>User testing prototypes</li>
+                <li>Style Guides</li>
+              </ul>
+            </div>
+            <div class="item1">
+              <ul>
+              <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">html / css</h3>
+                <li>I am at a fairly high skill level (for a designer, probably around a junior developer level), I am more than comfortable coding responsive emails and landing pages</li>
+                </ul>
+            </div>
+            <div class="item1">
+              <ul>
+              <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">Graphic design</h3>
+                <li>Logo design</li>
+                <li>Brand development</li>
+                <li>Digital + Print Advertisements</li>
+                <li>Banner Design</li>
+                <li>Editorial Design</li>
+                <li>Business Card Design</li>
+              </ul>
+            </div>
+            <div class="item1">
+              <ul>
+                <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">Marketing</h3>
+                <li>I designed and coded all the marketing email and landing page templates.</li>
+                <li>I put together a best practice guide for marketing to use these templates effectively and test them across all mail clients before sending</li>
+                <li>I worked on Pardot and Marketo marketing systems and have extensive knowledge about how to utilise these</li>
+                <li>Dynamic Content for emails and landing pages</li>
+                <li>Lead capture, how to utilise progressive forms fields, Dependant form fields</li>
+              </ul>
+            </div>
+        </div>
       </div>
     </div>
-    <!--endofskillstext-->
-    <div class="l-wrap">
+    <!--endofgridskillstext-->
+    <!--startofskillstext-->
+    <div style="background-color:#f9f9f9;">
+      <div class="l-wrap section">
+        <h2 style="text-align:left;font-size:46px;line-height:44px;">Skills</h2>
+        <p style="text-align:left;color:#656363;font-size:20px;line-height:30px;max-width: 1200px;">I am a multi disciplined designer so have skillset across more than just UX / UI. I am also an active member of a few maker communities and own a laser cutter, CNC router,vinyl cutter and desktop vacuum former
+        </p>
+        <div>
+          <ul>
+            <div class="threecolumntext">
+            <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px">UX/UI Skills</h3>
+              <li>User Interviews</li>
+              <li>User Research, Quantitate & Qualitative</li>
+              <li>Identifying problem areas</li>
+              <li>Conceptualising Solutions</li>
+              <li>Site Plan</li>
+              <li>Information Architiecture</li>
+              <li>Wire frames</li>
+              <li>Concepts low fidelity - high fidelity</li>
+              <li>Working prototyes</li>
+              <li>User testing prototypes</li>
+              <li>Style Guides</li>
+            </div>
+            <div class="threecolumntext">
+            <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">html / css</h3>
+              <li>I am at a fairly high skill level (for a designer, probably around a junior developer level), I am more than comfortable coding responsive emails and landing pages</li>
+            <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">Graphic design</h3>
+              <li>Logo design</li>
+              <li>Brand development</li>
+              <li>Digital + Print Advertisements</li>
+              <li>Banner Design</li>
+              <li>Editorial Design</li>
+              <li>Business Card Design</li>
+            </div>
+            <div class="threecolumntext">
+              <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">Marketing</h3>
+              <li>I designed and coded all the marketing email and landing page templates.</li>
+              <li>I put together a best practice guide for marketing to use these templates effectively and test them across all mail clients before sending</li>
+              <li>I worked on Pardot and Marketo marketing systems and have extensive knowledge about how to utilise these</li>
+              <li>Dynamic Content for emails and landing pages</li>
+              <li>Lead capture, how to utilise progressive forms fields, Dependant form fields</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--end-->
+    <!--startofgridskillstext-->
+    <div style="background-color:#f9f9f9;">
+      <div class="l-wrap section">
+        <h2 style="text-align:left;font-size:46px;line-height:44px;">Skills</h2>
+        <p style="text-align:left;color:#656363;font-size:20px;line-height:30px;max-width: 1200px;">I am a multi disciplined designer so have skillset across more than just UX / UI. I am also an active member of a few maker communities and own a laser cutter, CNC router,vinyl cutter and desktop vacuum former
+        </p>
+        <div class="grid2">
+            <div class="item text1">
+              <ul>
+              <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px">UX/UI Skills</h3>
+                <li>User Interviews</li>
+                <li>User Research, Quantitate & Qualitative</li>
+                <li>Identifying problem areas</li>
+                <li>Conceptualising Solutions</li>
+                <li>Site Plan</li>
+                <li>Information Architiecture</li>
+                <li>Wire frames</li>
+                <li>Concepts low fidelity - high fidelity</li>
+                <li>Working prototyes</li>
+                <li>User testing prototypes</li>
+                <li>Style Guides</li>
+              </ul>
+            </div>
+            <div class="item text2">
+              <ul>
+              <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">html / css</h3>
+                <li>I am at a fairly high skill level (for a designer, probably around a junior developer level), I am more than comfortable coding responsive emails and landing pages</li>
+                </ul>
+            </div>
+            <div class="item text3">
+              <ul>
+              <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">Graphic design</h3>
+                <li>Logo design</li>
+                <li>Brand development</li>
+                <li>Digital + Print Advertisements</li>
+                <li>Banner Design</li>
+                <li>Editorial Design</li>
+                <li>Business Card Design</li>
+              </ul>
+            </div>
+            <div class="item text4">
+              <ul>
+                <h3 style="margin: 20px 0 15px -18px;font-size: 30px;line-height: 30px;">Marketing</h3>
+                <li>I designed and coded all the marketing email and landing page templates.</li>
+                <li>I put together a best practice guide for marketing to use these templates effectively and test them across all mail clients before sending</li>
+                <li>I worked on Pardot and Marketo marketing systems and have extensive knowledge about how to utilise these</li>
+                <li>Dynamic Content for emails and landing pages</li>
+                <li>Lead capture, how to utilise progressive forms fields, Dependant form fields</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--endofgridskillstext-->
+    <div style="background-color:#222222">
+      <div class="l-wrap section">
+        <h2 style="color:#ffffff;text-align:left;font-size:46px;line-height:44px;">Tools</h2>
+        <p style="color:#999999;margin-bottom: 40px;">A designers most valuable tools  are creativity followed closely by  experience, but a good knowledge of what the best program to visualize your ideas is also important</p>
+        <div class="grid">
+          <div class="item">1
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>               
+          </div>
+          <div class="item">2
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>               
+          </div>
+          <div class="item">3
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>               
+          </div>
+          <div class="item">4
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>               
+          </div>
+          <div class="item">5
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>               
+          </div>
+          <div class="item">6
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>               
+          </div>
+          <div class="item">7
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>               
+          </div>
+          <div class="item">8
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>               
+          </div>
+          <div class="item">9
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>               
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Startoftools-->
+    <div style="background-color:#777777;display:none;">
+      <div class="l-wrap section">
+        <h2 style="color:#ffffff;text-align:left;font-size:46px;line-height:44px;">Tools</h2>
+        <p style="color:#999999;">A designers most valuable tools  are creativity followed closely by  experience, but a good knowledge of what the best program to visualize your ideas is also important</p>
+        <div>
+          <ul>
+            <div class="threecolumntext">
+              <div style="margin: 30px 0;">
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>  
+                <br>              
+              </div>
+              <div style="margin: 30px 0;">
+                <img class="icon"  src="images/Homepage/IconAI.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>    
+                <br>             
+              </div>
+              <div style="margin: 30px 0;">
+                <img class="icon"  src="images/Homepage/IconSketch.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>   
+                <br>              
+              </div>
+            </div>
+            <!--2ndrow-->
+            <div class="threecolumntext">
+              <div style="margin: 30px 0;">
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>  
+                <br>              
+              </div>
+              <div style="margin: 30px 0;">
+                <img class="icon"  src="images/Homepage/IconAI.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>    
+                <br>             
+              </div>
+              <div style="margin: 30px 0;">
+                <img class="icon"  src="images/Homepage/IconSketch.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>   
+                <br>              
+              </div>
+            </div>
+              <!--3rdrow-->
+            <div class="threecolumntext">
+              <div style="margin: 30px 0;">
+                <img class="icon" src="images/Homepage/IconPSD.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>  
+                <br>              
+              </div>
+              <div style="margin: 30px 0;">
+                <img class="icon"  src="images/Homepage/IconAI.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>    
+                <br>             
+              </div>
+              <div style="margin: 30px 0;">
+                <img class="icon"  src="images/Homepage/IconSketch.svg"></img>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="emptycircle"></div>   
+                <br>              
+              </div>
+            </div>
+              <!--3rdrow-->
+            </div>
+          </ul>   
+        </div>
+      </div>
+    </div>
+    <!--Endoftools-->
+    <div class="l-wrap section">
         <div class="headertext">
         <h4>projects</h4>
         <a href="speaker.html"><h1>Speakers Page</h1></a>
@@ -96,5 +388,14 @@
         <a href="ticket price.html"><h1>Ticket Page</h1></a>
       </div>
     </div>
+    <!--Startofcontact-->
+    <div style="background-color:#ff3300">
+      <div class="l-wrap section">
+        <h2 style="color:#ffffff;text-align:left;font-size:46px;line-height:44px;">Get in touch</h2>
+        <p style="color:#f8e5e0;">I am currently looking for work, you can reach me at </p>
+        <a href="mailto:contact@gavin-bailey.com?subject=Hello%20Gavin" target="_top"><h3 style="text-decoration:underline;color:#ffffff;font-size:30px;line-height:30px;">contact@gavin-bailey.com</h3></a>
+      </div>
+    </div>
+    <!--Endofcontact-->
   </body>
 </html>

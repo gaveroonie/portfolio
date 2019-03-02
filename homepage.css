@@ -30,57 +30,91 @@
 	color:white;
 	text-align:center !important;
 }
- .circle {
-	width: 1200px;
-	height: 1200px;
-	background: red;
+.circle {
+	width: 15px;
+	height: 15px;
+	background:#ff3300;
 	border-radius: 50%;
-	position: fixed;
-	margin-left: -600px;
-	margin-top: -21%;
+	display: inline-block;
+    margin: 6px 6px 18px;
+}
+.emptycircle {
+	width: 15px;
+	height: 15px;
+	stroke:1px #999999;
+	background:#666666;
+	border-radius: 50%;
+	display: inline-block;
+    margin: 6px 6px 18px;
 }
 .threecolumntext {
   width: 90%;
   margin:30px; 
 }
+.center{
+	text-align: center;
+}
+.section{
+	padding-top: 80px;
+    padding-bottom: 80px;
+}
+.icon{
+	width: 50px;
+    margin-right: 20px;
+
+}
 @media (min-width: 550px){
-.lefthalf {
-	flex: 1;
-    min-width: 40%;
-    min-height: 400px;
-    background:#222222;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 100px;
+	.lefthalf {
+		flex: 1;
+	    min-width: 40%;
+	    min-height: 400px;
+	    background:#222222;
+	    padding-right: 10%;
+	    padding-left: 10%;
+	    padding-top: 100px;
+	}
+	.righthalf {
+		width: 100%;
+	  	background-image: url("images/Homepage/edgecircle.svg"), url("images/Homepage/desk.png");
+	  	background-position:left, left;
+	    background-size:contain, cover;
+	    min-height: 800px;
+	    background-repeat: no-repeat, repeat;
+	}
+	.homepageheader{
+		width: 100%;
+		display: flex;
+		width: 100%;
+		min-height: 800px;
+	}
+	.white{
+		color:white;
+		text-align:left;
+		position: absolute;
+	    max-width: 30%;
+	}
+	.profile {
+	    border-radius: 50%;
+	    margin: 100px  0px 0px;
+	    display: flex;
+	}
+	.threecolumntext {
+		width: 45%;
+    	max-width: 800px;
+    	margin: 0px 2%;	    
+	    display: inline-block;
+	    vertical-align: top;
+	}
+	.center{
+	text-align: left;
+	margin-bottom: 12px;
 }
-.righthalf {
-	width: 100%;
-  	background-image: url("images/Homepage/edgecircle.svg"), url("images/Homepage/desk.png");
-  	background-position:left, left;
-    background-size:contain, cover;
-    min-height: 800px;
-    background-repeat: no-repeat, repeat;
 }
-.homepageheader{
-	width: 100%;
-	display: flex;
-	width: 100%;
-	min-height: 800px;
-}
-.white{
-	color:white;
-	text-align:left;
-	position: absolute;
-    max-width: 30%;
-}
-.profile {
-    border-radius: 50%;
-    margin: 100px  0px 0px;
-    display: flex;
-}
-.threecolumntext {
-  width: 27%;
-  max-width: 800px;
-  margin:30px; 
-  display: inline-grid;
+@media (min-width: 1400px){
+	.threecolumntext {
+	  width: 27%;
+	  max-width: 800px;
+	  margin:30px; 
+	  display: inline-grid;
+	}
 }
