@@ -58,6 +58,10 @@
 	width: 50px;
     margin-right: 20px;
 }
+.programitem{
+	display:flex;
+	margin: 0 auto;
+}
 
 .skillgrid{
 	width:100%;
