@@ -47,10 +47,6 @@
 	display: inline-block;
     margin: 6px 6px 18px;
 }
-.threecolumntext {
-  width: 90%;
-  margin:30px; 
-}
 .center{
 	text-align: center;
 }
@@ -61,7 +57,50 @@
 .icon{
 	width: 50px;
     margin-right: 20px;
+}
 
+.skillgrid{
+	width:100%;
+}
+.griditem1{
+	position:inherit;
+	width: 90%;
+	float: left;
+	margin-right: 20px;		
+}
+.griditem1a{
+	display:inherit;
+	position:relative;
+	width: 100%;
+	float: left;	
+}
+.griditem2{
+	display:none;
+}		
+.griditem3{
+	position:inherit;	
+	max-width: 400px;
+	float: left;
+	margin-right: 20px;		
+}
+.griditem4{
+	position:inherit;
+	width: 90%;
+	float: left;
+	margin-right: 20px;		
+}
+.griditem4a{
+	display:inherit;
+	position:inherit;
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;		
+}
+.programgrid{
+	width:100%;
+	display:grid;
+	grid-template-columns:100%;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
 }
 @media (min-width: 550px){
 	.lefthalf {
@@ -98,23 +137,70 @@
 	    margin: 100px  0px 0px;
 	    display: flex;
 	}
-	.threecolumntext {
-		width: 45%;
-    	max-width: 800px;
-    	margin: 0px 2%;	    
-	    display: inline-block;
-	    vertical-align: top;
-	}
 	.center{
 	text-align: left;
 	margin-bottom: 12px;
 }
 }
+@media (min-width:750px) {
+	.griditem1{
+		position:inherit;
+		float: left;
+		width: 44%	
+	}
+	.griditem2{
+		display: none;
+	}
+	.griditem4{
+		position:inherit;
+		float: right;
+		width: 44%	
+	}
+	.programgrid{
+		width:100%;
+		display:grid;
+		grid-template-columns:1fr 50% ;
+		grid-template-rows: 100px 100px 100px 100px 100px;
+	}
+}
+@media (min-width:1000px) {
+	.programgrid{
+		width:100%;
+		display:grid;
+		grid-template-columns:1fr 1fr 1fr;
+		grid-template-rows: 100px 100px 100px;
+	}
+}
 @media (min-width: 1400px){
-	.threecolumntext {
-	  width: 27%;
-	  max-width: 800px;
-	  margin:30px; 
-	  display: inline-grid;
+	.programgrid{
+		width:100%;
+		display:grid;
+		grid-template-columns:25% 25% 25% 25%;
+		grid-template-rows: 100px 100px 100px;
+	}
+}
+@media (min-width: 1529px){
+	.griditem4a{
+		display:none;	
+	}
+	.griditem1a{
+		display: none;
+	}
+	.griditem1{
+		position:inherit;
+		float: left;
+		width: 30%;
+    	margin-right: 20px;
+	}
+	.griditem2{
+		display: inherit;
+		position:relative;
+		float: left;	
+		width: 30%;
+		margin: 0 12px;
+	}
+	.griditem4{
+		position:inherit;	
+		width: 30%	
 	}
 }

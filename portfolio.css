@@ -231,16 +231,16 @@ hr {
     margin: 20px 2% 10px;;
     display: inline-grid;
   }
-  	.twohalfssection{
-	    display: flex;
-	    width: 100%;
+  .twohalfssection{
+    display: flex;
+    width: 100%;
   }
-    .breif{
-	    flex:1;
-	    padding-right: 3%;
-	    width: 10%;
+  .breif{
+    flex:1;
+    padding-right: 3%;
+    width: 10%;
   }
-  	.mainbodytext{
+  .mainbodytext{
 		padding: 0  6%;
 		box-sizing: border-box;
 		width:70%;
