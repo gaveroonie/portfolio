@@ -58,6 +58,11 @@
 	width: 50px;
     margin-right: 20px;
 }
+.icontext{
+	padding: 12px 0px 0px 7px;
+	color:#ffffff;
+	font-size: 16px;
+}
 .programitem{
 	display:flex;
 	margin: 0 auto;

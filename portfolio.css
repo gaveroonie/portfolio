@@ -92,8 +92,8 @@ h4{
 	text-transform: uppercase;
 }
 p{
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 26px;
 	text-align: left;
 	color:#656363;
 	margin: 10px 0 0 0;
@@ -173,8 +173,8 @@ hr {
   display: inline-grid;
 }
 .imagedescription{
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 20px;
     text-align: left;
     color: #888888;
     margin: 8px 0 20px 0;
