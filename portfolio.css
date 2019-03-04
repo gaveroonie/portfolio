@@ -205,6 +205,11 @@ hr {
 .sticky + .content {
   padding-top: 150px;
 }
+footer{
+  height:100px;
+  background-color: #222222;
+  padding:20px;
+}
 
 @media (min-width:750px) {
 	h1{
