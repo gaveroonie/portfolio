@@ -62,6 +62,13 @@
 	padding: 12px 0px 0px 7px;
 	color:#ffffff;
 	font-size: 16px;
+	line-height: 26px;
+	text-align: left;
+	color:#656363;
+	margin: 10px 0 0 0;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .programitem{
 	display:flex;

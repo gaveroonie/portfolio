@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3029" height="359" viewBox="0 0 3029 359">
+  <defs>
+    <style>
+      .cls-1, .cls-14 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #4d4d4d;
+      }
+
+      .cls-3 {
+        fill: #ed1c24;
+      }
+
+      .cls-4 {
+        fill: #fbb03b;
+      }
+
+      .cls-5 {
+        fill: #8cc63f;
+      }
+
+      .cls-18, .cls-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        stroke: #000;
+        stroke-width: 6px;
+      }
+
+      .cls-14, .cls-7 {
+        font-size: 60px;
+      }
+
+      .cls-7 {
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-8 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-13 {
+        fill: #d4145a;
+      }
+
+      .cls-14 {
+        font-family: MyriadPro-Bold, Myriad Pro;
+        font-weight: 700;
+      }
+
+      .cls-15 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-18 {
+        stroke: #999;
+        stroke-width: 9px;
+      }
+
+      .cls-19 {
+        fill: #999;
+      }
+    </style>
+  </defs>
+  <title>NAV</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M13.25,3H3017a9.24,9.24,0,0,1,9.24,9.24V356a0,0,0,0,1,0,0H3.25a0,0,0,0,1,0,0V13A10,10,0,0,1,13.25,3Z"/>
+      <path class="cls-2" d="M12.56,3H3016.94A10.06,10.06,0,0,1,3027,13.06V132.5a0,0,0,0,1,0,0H2.5a0,0,0,0,1,0,0V13.06A10.06,10.06,0,0,1,12.56,3Z"/>
+      <g>
+        <circle class="cls-3" cx="89.72" cy="64.36" r="24.72"/>
+        <circle class="cls-4" cx="169.49" cy="64.36" r="24.72"/>
+        <circle class="cls-5" cx="249.26" cy="64.36" r="24.72"/>
+      </g>
+      <path class="cls-6" d="M13,3H3016.76a9.24,9.24,0,0,1,9.24,9.24V356a0,0,0,0,1,0,0H3a0,0,0,0,1,0,0V13A10,10,0,0,1,13,3Z"/>
+      <text class="cls-7" transform="translate(439.76 259.18)"><tspan class="cls-8">O</tspan><tspan class="cls-9" x="42.18" y="0">v</tspan><tspan x="70.44" y="0">e</tspan><tspan class="cls-10" x="100.5" y="0">r</tspan><tspan x="121.62" y="0">view</tspan></text>
+      <text class="cls-7" transform="translate(778.5 259.18)">Speakers</text>
+      <text class="cls-7" transform="translate(1102.78 259.18)"><tspan class="cls-11">A</tspan><tspan x="36" y="0">genda</tspan></text>
+      <text class="cls-7" transform="translate(1728.47 259.18)"><tspan class="cls-12">V</tspan><tspan x="31.5" y="0">enue</tspan></text>
+      <text class="cls-7" transform="translate(1398.44 259.18)">Sponsors</text>
+      <rect class="cls-13" x="2426.5" y="181.57" width="415" height="120" rx="8"/>
+      <text class="cls-14" transform="translate(2505.53 259.18)">Buy<tspan class="cls-15" x="102.6" y="0"> </tspan><tspan class="cls-16" x="112.38" y="0">T</tspan><tspan x="143.88" y="0">ic</tspan><tspan class="cls-17" x="187.38" y="0">k</tspan><tspan x="219.06" y="0">et</tspan></text>
+      <g>
+        <polyline class="cls-18" points="125.87 282.22 155.38 244.45 171.06 259.95 197.81 230.89 236.54 278.35"/>
+        <path class="cls-19" d="M160.41,209.39a3.59,3.59,0,1,1-3.59,3.59,3.59,3.59,0,0,1,3.59-3.59m0-9A12.59,12.59,0,1,0,173,213a12.59,12.59,0,0,0-12.59-12.59Z"/>
+        <rect class="cls-18" x="121.67" y="176.17" width="117.18" height="116.22" rx="14.71"/>
+      </g>
+      <rect class="cls-13" x="450" y="276" width="69" height="16"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+  <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="headerimages.css">
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="https://use.typekit.net/bjk2aea.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<title>Summit Overview</title>
+</head>
+
+  <body>
+    <header style="height:82px">
+  		<div class="logoheader" id="myHeader">
+        <div class="l-wrap">
+          <div class="logo">
+          <a href="index.html">
+            <img id="logo" src="images/uxlogo.svg" lt="UXlogo" width="223" height="56" onerror="this.onerror=null; this.src='images/uxlogo.png'">
+          </a>
+          </div>
+        </div>
+      <div>
+    </header>
+		<div class="l-wrap">
+   			<div class="headertext">
+   			<h4>project: Event Site Redesign</h4>
+   			<h1>Overview Page</h1>
+   		</div>
+    </div>
+      <!--Codepengallery-->
+      <div id="church-container">
+        <label for="image1">
+          <img src="images/SpeakerHeader3.jpg" alt>
+        </label>
+        <input type="radio" id="image1" name="churchy">
+        
+        <label for="image2">
+          <img src="images/Overview/overviewheader.png">
+        </label>
+        <input type="radio" id="image2" name="churchy" checked>
+        
+        <label for="image3">
+          <img src="images/spkr.jpg" alt></label>
+        <input type="radio" id="image3" name="churchy">
+        <div id="churches">
+          <figure id="image1lrge">
+            <img src="images/SpeakerHeader3.jpg" alt="Speaker header image 1">
+          </figure>
+          <figure id="image2lrge">
+            <img src="images/Overview/overviewheader.png" alt="Speaker header image 2">
+          </figure>
+          <figure id="image3lrge">
+            <img src="images/spkr.jpg" alt="Speaker header image 3">
+          </figure>
+        </div>
+      </div>
+      <!--Codepengallery-->
+      <div class="l-wrap">
+     		<div class="twohalfssection">
+     			<div class="breif">
+     			<h2>Project brief</h2>
+     			<p>An overview to the event, It should give the user an outline to what the event will contain</p>
+          <h3>Requirements</h3>
+          <p>Must show details about speaker including name, job title, company & and speaker bio. Must use existing database of speaker images. Speaker images are generally pretty low quality and taken from LinkedIn.</p>
+          <h3>Links</h3>
+          <p><a rel="stylesheet" type="text/css" target="_blank" href="https://www.theinnovationenterprise.com/summits">Calendar</a><br>
+          Pick an event and view speakers page<br>
+          <span class="imagedescription">(the further into the future an event the less likely there will be an current speakers).<span></p>
+     			</div>
+     			<div  class="mainbodytext">
+          <!---video-->
+          <h2>Original Site</h2>
+          <p>The first place to start is looking at the original overview page, This is the first page the user sees when looking at an event so is incredibly important to make a good first impression</p>
+          <div class="fullwidthimg"><video style="width:100%;" autoplay controls loop preload:auto><source src="images/Overview/OverviewRecordingSmll.mp4" type="video/mp4" width="100%"></video>
+          </div>
+          <!---endvideo-->
+          <h2>Initial breakdown of UI problems</h2>
+          <div class="">
+            <div class="halfwidthimg" style="width:20%;"><img src="images/Overview/circle1.png"></div>
+            <div class="halfwidthimg" style="width:70%;vertical-align: top;"><p>The hashtag is in position id expect to find the logo in, which an important position as Id expect to bring me back to the homepage</p></div>
+          </div>
+
+          <div class="">
+            <div class="halfwidthimg" style="width:70%;vertical-align: top;"><p>The register button is in a circle which isnt obvious its a button, Also the wording "Register" I dont think is quite right as you have to buy a ticket, The color is determined by the division of the event there are seven different divisions</p></div>
+            <div class="halfwidthimg" style="width:20%;"><img src="images/Overview/circle2.png"></div>
+            
+          </div>
+
+          <div class="">
+            <div class="halfwidthimg" style="width:20%;"><img src="images/Overview/circle3.png"></div>
+            <div class="halfwidthimg" style="width:70%;vertical-align: top;"><p>The social share icons follows you down the entire page often over content</p></div>
+          </div>
+
+          <div class="">
+            <div class="halfwidthimg" style="width:70%;vertical-align: top;"><p>Every section has an image background, this causes a few problems with loading times, sourcing all these images, legibility of content infront of these backgrounds</p></div>
+            <div class="halfwidthimg" style="width:20%;"><img src="images/Overview/circle4.png"></div>
+          </div>
+
+           <div class="">
+            <div class="halfwidthimg" style="width:20%;"><img src="images/Overview/circle5.png"></div>
+            <div class="halfwidthimg" style="width:70%;vertical-align: top;"><p>Carosels have been proven not to be effective,<a href="http://shouldiuseacarousel.com" target="_blank">This is a website dedicated to explaining why</a></p></div>
+          </div>
+
+          <div style="background-color: #f1f1f1;padding: 80px;width: 100%;margin-left: -80px;">
+            <h2 style="font-size:34px;line-height:34px;margin-top: 0px;">Why the Redesign</h2>
+            <p>Why are we redesigning the site</p>
+            <h2>Stake Holders</h2>
+            <p>The upper management and board members request for an update were</p>
+            <ul>
+            <li>Hasn’t been updated in 5 years so needs a refresh</li>
+            <li>Needs to be easier to navigate</li>
+            <li>Past events aren’t utilised enough</li>
+            <li>The 2 other sites aren’t clearly linked (OnDemand and Channels)</li>
+            <li>Making an event with showing only past speakers isn’t obvious they are previous speakers</li>
+            </ul>
+            <h2>Internal Interviews</h2>
+            <p>We have a custom made CMS that all our events sites are built on, This CMS would be rebuilt with the new event site.<br> I wanted to identify any problem areas that could be improved on, so set out some interviews with each department to see what they found easy and wanted to keep and what they found difficult, and if there is anything new that they wanted that currently isnt available</p>
+            <h2>Interview Results</h2>
+            <h3>Event organisers</h3>
+            <ul>
+            <li>There are too many entry fields, too many images to upload,Too many text fields (which results in all the text being copied form one event to the next)</li>
+            <li>It takes too long to create an event from scratch and their are issues when cloning old events</li>
+            <li>Multi track Agendas are confusing and difficult to make</li>
+            <li>Colocated events are not possible to make</li>
+            </ul>
+            <br>
+            <h3>Sales Team</h3>
+            <ul>
+            <li>Buy Ticket button to be more prominent </li>
+            <li>Make the price page easier to understand</li>
+            <li>A way of promoting the Early bird prices</li>
+            </ul>
+            <br>
+            <h3>Sponsorship</h3>
+            <ul>
+            <li>To define what type of sponsorship package a company has bought</li>
+            <li>To make information on the website accurate as the current executive summary is wildy innaccuraete and leads to sponsors being let down</li>
+            </ul>
+            <br>
+            <h3>Marketing</h3>
+            <ul>
+            <li>More lead capture oppurtunities</li>
+            <li>To make information on the website accurate as the current executive summary is wildy innaccuraete and leads to sponsors being let down</li>
+            </ul>
+          </div>
+
+
+          <h2>Wire Frames</h2>
+          <p>Speaker names vary in length from very short to extremely long, the longest name that comes to mind is..... Schwarzenegger. So the top 3 concepts had the Schwarzenegger test how do they handle really long names.</p>
+          <div class="fullwidthimg"><img src="images/overview/wireframes.svg"><p class="imagedescription">Speaker names vary in length from very short to extremely long, the longest name that comes to mind is..... Schwarzenegger. So every concept had the Schwarzenegger test how do they handle really long names.</p></div>
+          <div class="fullwidthimg"><img src="images/overview/overviewfram.svg"><p class="imagedescription">Speaker names vary in length from very short to extremely long, the longest name that comes to mind is..... Schwarzenegger. So every concept had the Schwarzenegger test how do they handle really long names.</p></div>
+          
+
+          <!--End of sections-->
+          </div>
+      </div>
+      <!--End of Main-->
+        
+
+  <!--Footer-->
+    <footer>
+      <div style="background-color:#222222">
+        <div class="l-wrap section">
+          <h2 style="color:#ffffff;text-align:left;font-size:46px;line-height:44px;">Get in touch</h2>
+          <p style="color:#888888;">Lets work together, to make the world a better place, for you and for me and the entire human race <a href="mailto:contact@gavin-bailey.com?subject=Hello%20Gavin" target="_top" style="text-decoration:underline;color:#ffffff;font-size:18px;line-height:18px;font-weight:bold;">contact@gavin-bailey.com</p></a>
+        </div>
+        <p style="font-size:12px;line-height: 14px;color:#ffffff;text-align:right;padding: 20px;">Site designed and developed by Gavin Bailey. 2019</p>
+      </div>
+    </footer>
+    <!--Footerend-->
+    
+	</body>
+</html>
