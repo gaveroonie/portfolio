@@ -37,6 +37,9 @@ a:active {
     -moz-transition: .1s ease-in-out;
     -o-filter: grayscale(100%); 
     -o-transition: .1s ease-in-out;
+}
+body{
+  margin:0;
 } 
 
 img{
