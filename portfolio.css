@@ -73,7 +73,7 @@ h1{
 }
 
 h2{
-  font-size: 22px;
+  font-size: 26px;
   text-align: left;
   color: #222222;
   font-weight: bold;
@@ -85,7 +85,7 @@ h2{
   line-height: 22px;
 }
 h3{  
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   color: #222222;
   font-weight: bold;
@@ -97,9 +97,10 @@ h3{
   line-height: 16px;
 }
 h4{
-	font-size: 18px;
+	font-size: 30px;
+  line-height: 28px;
 	text-align: left;
-	color:#777777;
+	color:#ffffff;
 	margin: 20px 0 0 0;
 	font-family: proxima-nova, sans-serif;
 	font-weight: 900;
@@ -115,6 +116,28 @@ p{
 	font-family: proxima-nova, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+}
+p.light{
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  color:#999999;
+  margin: 10px 0 0 0;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3.light{  
+  font-size: 18px;
+  text-align: left;
+  color: #222222;
+  font-weight: bold;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 20px 0 10px 0;
+  line-height: 16px;
 }
 ul {
   list-style-position: outside;
@@ -159,6 +182,8 @@ hr {
 .mainbodytext{
 	width: 100%;
 	box-sizing: border-box;
+  margin: auto;
+  padding: 6%;
 }
 .centerheader{
 	display:inline-block;

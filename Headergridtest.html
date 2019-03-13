@@ -48,18 +48,83 @@
       </div>
     </div>
     <!--headerend-->
+    <!--StartSection1-->
     <div class="l-wrap">
       <div class="twohalfssection">
         <div class="breif">
           <h2>Project brief</h2>
-          <p>A page to view what speakers are speaking at the event.</p>
+          <p>The overview page is the homepage of the event. Its purpose is to give the user an outline of what the event is about who is speaking and what they their presentations are about.</p>
           <h3>Requirements</h3>
-          <p>Must show details about speaker including name, job title, company & and speaker bio. Must use existing database of speaker images. Speaker images are generally pretty low quality and taken from LinkedIn.</p>
+          <p>Must be easy to update and must be adaptable to cover the life span of an event eg before the event , during the event and also after the event for users looking at previous events section.</p>
           <h3>Links</h3>
-          <p><a rel="stylesheet" type="text/css" target="_blank" href="https://www.theinnovationenterprise.com/summits">Calendar</a><br>
-          Pick an event and view speakers page<br>
-          <span class="imagedescription">(the further into the future an event the less likely there will be an current speakers).<span></p>
+          <p>pick an event <a rel="stylesheet" type="text/css" target="_blank" href="https://www.theinnovationenterprise.com/summits">Calendar</a></p>
           </div>
+          <div  class="mainbodytext">
+          <!---video-->
+          <h2>Research</h2>
+          <p>Before starting to design I researched what we currently had, and where we could improve it.The first place to start is looking at the original overview page, This is the first page the user sees when looking at an event so is incredibly important to make a good first impression.<br>You can view the original site<a target="blank" href="https://web.archive.org/web/20170405080539/https://theinnovationenterprise.com/summits/digital-marketing-innovation-summit-melbourne-2017"> here</a></p>
+          <div class="fullwidthimg"><video style="width:100%;" autoplay controls loop preload:auto><source src="images/Overview/OverviewRecordingSmll.mp4" type="video/mp4" width="100%"></video>
+          </div>
+          <!---endvideo-->
+          <h2>Speaker cards</h2>
+          <p>Speaker card requirements were to include photo and logo. Putting these two elements together on a single card always made the card look crowded, but the displaying the logo was the easiest way to advertise if a speaker came from a recognisable company, which was a huge selling point for our events so was non-negotiable.</p>
+          <h3>Cards Low fidelity</h3>
+          <div class="halfwidthimg" style="max-width:200px;"><img src="images/SpkrCardWireframe1.jpg"><p class="imagedescription">The logo along with the speaker photo never really sat well with me but was a necessity to advertise the big named companies, and originally we only displayed the logo which felt a bit impersonal, so was a huge improvement on what we had.</p></div>
+          <div class="halfwidthimg"  style="max-width:200px;"><img src="images/SpkrCardWireframe2.jpg"><p class="imagedescription">Without the logo the card is definitely a lot cleaner, but the brief required the logo.</p></div>
+        </div>
+      </div>
+    </div>
+    <!--EndSection1-->
+    <!--StartSection2-->
+    <div class="dark">
+      <div class="">
+         <div class="twohalfssection">
+            <div class="mainbodytext section">
+             <h4 class="light">Identifying problem Areas</h4>
+             <p class="light" >I first made a breakdown of all the problems described in the interview process and tried to find why they occure</p>
+                  <div class="halfwidthimg " style="display:inline-table;">
+                    <div class="halfwidthimg probcircle"><img src="images/Overview/circle1.png"></div>
+                    <div class="halfwidthimg" style="width:70%;vertical-align: middle;min-width:210px;"><p class="light" >The hashtag is in position id expect to find the logo in, which an important position as Id expect to bring me back to the homepage</p></div>
+                  </div>
+                  <div class="halfwidthimg" style="display:inline-table;">
+                    <div class="halfwidthimg probcircle"><img src="images/Overview/circle2.png"></div>
+                    <div class="halfwidthimg" style="width:70%;vertical-align: middle;min-width:210px;"><p class="light" >The circular buttons dont look like buttons, Also the color is dependant on what division the event is in there are eight divisions</p></div>
+                  </div>
+                  <div class="halfwidthimg" style="display:inline-table;">
+                    <div class="halfwidthimg probcircle"><img src="images/Overview/circle3.png"></div>
+                    <div class="halfwidthimg" style="width:70%;vertical-align: middle;min-width:210px;"><p class="light" >The social share icons are sticky and often hides content, It also highlights the low amount of shares</p></div>
+                  </div>
+                  <div class="halfwidthimg" style="display:inline-table;">
+                    <div class="halfwidthimg probcircle"><img src="images/Overview/circle6.png"></div>
+                    <div class="halfwidthimg" style="width:70%;vertical-align: middle;min-width:210px;"><p class="light" >The CTA’s through out the overview page are just small icons that are easily missed</p></div>
+                  </div>
+                  <div class="halfwidthimg" style="display:inline-table;">
+                    <div class="halfwidthimg probcircle"><img src="images/Overview/circle8.png"></div>
+                    <div class="halfwidthimg" style="width:70%;vertical-align: middle;min-width:210px;"><p class="light" >Listing the speakers as logo's and job titles seems a little impersonal, and doesnt convey that they are people.</p></div>
+                  </div>
+                  <div class="halfwidthimg" style="display:inline-table;">
+                    <div class="halfwidthimg probcircle"><img src="images/Overview/circle4.png"></div>
+                    <div class="halfwidthimg" style="width:70%;vertical-align: middle;min-width:210px;"><p class="light" >Every section has a background image, this causes problems with legibility of overlaying the text, loading times and resources to source so many images</p></div>
+                  </div>
+                  <div class="halfwidthimg" style="display:inline-table;">
+                    <div class="halfwidthimg probcircle"><img src="images/Overview/circle5.png"></div>
+                    <div class="halfwidthimg" style="width:70%;vertical-align: middle;min-width:210px;"><p class="light" >Carousels are proven to be not effective</p></div>
+                  </div>
+                  <div class="halfwidthimg" style="display:inline-table;">
+                    <div class="halfwidthimg probcircle"><img src="images/Overview/circle7.png"></div>
+                    <div class="halfwidthimg" style="width:70%;vertical-align: middle;min-width:210px;"><p class="light" >The executive summary is not responsive, It is manually made and saved as a single PDF</p></div>
+                  </div>
+
+            </div>
+            <div class="breif" style="background-image: url(images/overview/problembkrnd1.png),url(images/overview/problembkrnd2.png);background-position: top,bottom; background-size:inherit;background-repeat:no-repeat;">
+            </div>
+        </div>
+      </div>
+    </div>
+     <!--EndSection2-->
+    <!--StartSection3-->
+    <div class="l-wrap">
+      <div class="twohalfssection">
           <div  class="mainbodytext">
           <!---video-->
           <h2>Original Site</h2>
@@ -75,6 +140,7 @@
         </div>
       </div>
     </div>
+    <!--EndSection3-->
     <!--Wireframes-->
     <div class="imagesectionhead" style="background-image: url(images/redesign/redesignheader2.png);">
       <div class="wide">
@@ -105,7 +171,7 @@
     <footer>
       <div style="background-color:#222222">
         <div class="l-wrap section">
-          <h2 style="color:#ffffff;text-align:left;font-size:46px;line-height:44px;">Get in touch</h2>
+          <h2  style="color:#ffffff;text-align:left;font-size:46px;line-height:44px;">Get in touch</h2>
           <p style="color:#888888;">Lets work together, to make the world a better place, for you and for me and the entire human race <a href="mailto:contact@gavin-bailey.com?subject=Hello%20Gavin" target="_top" style="text-decoration:underline;color:#ffffff;font-size:18px;line-height:18px;font-weight:bold;">contact@gavin-bailey.com</p></a>
         </div>
         <p style="font-size:12px;line-height: 14px;color:#ffffff;text-align:right;padding: 20px;">Site designed and developed by Gavin Bailey. 2019</p>
