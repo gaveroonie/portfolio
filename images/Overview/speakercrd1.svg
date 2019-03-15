@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272.73" height="132.73" viewBox="0 0 272.73 132.73">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3.87px;
+      }
+
+      .cls-2 {
+        fill: #ccc;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #f2f2f2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5.42px;
+      }
+
+      .cls-4 {
+        fill: #f2f2f2;
+      }
+
+      .cls-10, .cls-6 {
+        font-size: 15.36px;
+      }
+
+      .cls-6 {
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        font-family: MyriadPro-Bold, Myriad Pro;
+        font-weight: 700;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <title>speakercrd1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect class="cls-1" x="3.87" y="3.87" width="125" height="125"/>
+      <g>
+        <rect class="cls-2" x="5.93" y="6.11" width="120.87" height="81.73"/>
+        <g>
+          <polyline class="cls-3" points="35.43 70.88 51.59 52.47 60.9 60.84 74.66 43.6 97.65 69.24"/>
+          <path class="cls-4" d="M54.58,33.91A1.55,1.55,0,1,1,53,35.46a1.55,1.55,0,0,1,1.55-1.55m0-4.91A6.46,6.46,0,1,0,61,35.46,6.46,6.46,0,0,0,54.58,29Z"/>
+          <path class="cls-4" d="M95.73,21V73H37V21H95.73m5.42-5.42H31.58V78.37h69.57V15.58Z"/>
+        </g>
+      </g>
+      <g>
+        <path d="M128.87,3.87v125H3.87V3.87h125M132.73,0H0V132.73H132.73V0Z"/>
+        <path class="cls-5" d="M125,7.73V125H7.73V7.73H125m3.87-3.86H3.87v125h125V3.87Z"/>
+      </g>
+      <text class="cls-6" transform="translate(39.9 120.6)">Job<tspan class="cls-7" x="22.86" y="0"> </tspan><tspan class="cls-8" x="25.48" y="0">T</tspan><tspan class="cls-9" x="32.93" y="0">itle</tspan></text>
+      <text class="cls-10" transform="translate(12.32 101.6)"><tspan class="cls-11">C</tspan><tspan x="8.85" y="0">ompa</tspan><tspan class="cls-12" x="48.22" y="0">n</tspan><tspan x="56.93" y="0">y Name</tspan></text>
+      <rect class="cls-1" x="143.87" y="3.87" width="125" height="125"/>
+      <g>
+        <rect class="cls-2" x="145.93" y="6.11" width="120.87" height="81.73"/>
+        <g>
+          <polyline class="cls-3" points="175.43 70.88 191.59 52.47 200.9 60.84 214.66 43.6 237.65 69.24"/>
+          <path class="cls-4" d="M194.58,33.91A1.55,1.55,0,1,1,193,35.46a1.55,1.55,0,0,1,1.55-1.55m0-4.91A6.46,6.46,0,1,0,201,35.46,6.46,6.46,0,0,0,194.58,29Z"/>
+          <path class="cls-4" d="M235.73,21V73H177V21h58.73m5.42-5.42H171.58V78.37h69.57V15.58Z"/>
+        </g>
+      </g>
+      <g>
+        <path d="M268.87,3.87v125h-125V3.87h125M272.73,0H140V132.73H272.73V0Z"/>
+        <path class="cls-5" d="M265,7.73V125H147.73V7.73H265m3.87-3.86h-125v125h125V3.87Z"/>
+      </g>
+      <text class="cls-6" transform="translate(179.9 120.6)">Job<tspan class="cls-7" x="22.86" y="0"> </tspan><tspan class="cls-8" x="25.48" y="0">T</tspan><tspan class="cls-9" x="32.93" y="0">itle</tspan></text>
+      <text class="cls-10" transform="translate(152.32 101.6)"><tspan class="cls-11">C</tspan><tspan x="8.85" y="0">ompa</tspan><tspan class="cls-12" x="48.22" y="0">n</tspan><tspan x="56.93" y="0">y Name</tspan></text>
+    </g>
+  </g>
+</svg>
