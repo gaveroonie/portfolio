@@ -1,3 +1,53 @@
+.card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+.card:hover > .cardimage{
+	transition: all .1s ease-in;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1;
+    overflow: hidden;
+}
+.card{
+	height: 100%;
+	width:100%;
+	background-color:#ffffff;
+	border-radius:9px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  	display: flex;
+  	flex-direction: column;
+  	overflow: hidden;
+}
+.cardimage{
+	height:70%;
+	width:100%;
+	background-position: bottom;
+    background-size: cover;
+	border-radius:9px 9px 0 0;
+	overflow: hidden;
+	flex: 3;
+}
+.cardtext{
+	padding:15px;
+	margin:0;
+	flex: 1;
+  	justify-content: space-between;
+  	flex-direction: column;
+  	background: white;
+    z-index: 1;
+}
+h2.cardtext{
+	margin:0;
+	padding:0;
+}
+h4.cardtext{
+	margin:0;
+	font-size:16px;
+	line-height:16px;
+	padding:0;
+}
 .cardlrgtext{
 	color:#ffffff;
 	text-align:left;
@@ -10,10 +60,11 @@
 	width:100%;
 	display:grid;
 	grid-template-columns:1fr;
-	grid-template-rows: 400px 200px 200px 200px 400px ;
+	grid-template-rows: 300px 300px 300px 300px 300px ;
 	grid-gap:15px;
 }
 .workitem1{
+	background-color:red;
 	grid-column-start:1;
 	grid-column-end:2;
 	grid-row-start:1;
@@ -46,7 +97,6 @@
 }
 .workitem5{
 	background-color:pink;
-	background-image:url('images/work/agendabkrnd.png');
 	background-position: bottom;
     background-size:cover;
     background-repeat:no-repeat;
@@ -55,49 +105,48 @@
 	grid-row-start:5;
 	grid-row-end:6;
 	border-radius: 8px;
-	overflow: hidden;
 }
 @media (min-width:700px) {
 	.workgrid{
 		width:100%;
 		display:grid;
 		grid-template-columns:1fr 1fr;
-		grid-template-rows: 400px 200px 200px 500px ;
+		grid-template-rows: 300px 300px 300px 300px ;
 	}
 	.workitem1{
 		background-color:red;
 		grid-column-start:1;
-		grid-column-end:3;
+		grid-column-end:2;
 		grid-row-start:1;
 		grid-row-end:2;
 	}
 	.workitem2{
 		background-color:blue;
-		grid-column-start:1;
+		grid-column-start:2;
 		grid-column-end:3;
-		grid-row-start:2;
-		grid-row-end:3;
+		grid-row-start:1;
+		grid-row-end:2;
 	}
 	.workitem3{
 		background-color:green;
 		grid-column-start:1;
 		grid-column-end:2;
-		grid-row-start:3;
-		grid-row-end:4;
+		grid-row-start:2;
+		grid-row-end:3;
 	}
 	.workitem4{
 		background-color:orange;
 		grid-column-start:2;
 		grid-column-end:3;
-		grid-row-start:3;
-		grid-row-end:4;
+		grid-row-start:2;
+		grid-row-end:3;
 	}
 	.workitem5{
 		background-color:pink;
 		grid-column-start:1;
-		grid-column-end:3;
-		grid-row-start:4;
-		grid-row-end:5;
+		grid-column-end:2;
+		grid-row-start:3;
+		grid-row-end:4;
 	}
 }
 @media (min-width:1000px) {
@@ -106,7 +155,7 @@
 		grid-column-start:1;
 		grid-column-end:2;
 		grid-row-start:1;
-		grid-row-end:3;
+		grid-row-end:2;
 	}
 	.workitem2{
 		background-color:blue;
@@ -126,20 +175,20 @@
 		background-color:orange;
 		grid-column-start:1;
 		grid-column-end:2;
-		grid-row-start:3;
-		grid-row-end:4;
+		grid-row-start:2;
+		grid-row-end:3;
 	}
 	.workitem5{
 		background-color:pink;
 		grid-column-start:2;
-		grid-column-end:4;
+		grid-column-end:3;
 		grid-row-start:2;
-		grid-row-end:4;
+		grid-row-end:3;
 	}
 	.workgrid{
 		width:100%;
 		display:grid;
 		grid-template-columns:1fr 1fr 1fr;
-		grid-template-rows: 200px 200px 200px;
+		grid-template-rows: 300px 300px 300px;
 		}
 }
