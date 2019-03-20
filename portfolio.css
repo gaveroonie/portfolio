@@ -197,15 +197,15 @@ hr {
 	width: 100%;
 	box-sizing: border-box;
   margin: auto;
-  padding: 6%;
 }
 .centerheader{
 	display:inline-block;
 	max-width: 433px;
 }
 .section{
-  padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
 }
 .superwidthimg{
   width: 100%;
@@ -296,7 +296,7 @@ footer{
   .quarterwidthimg{
     width: 20%;
     height: auto;
-    margin: 20px 2% 10px;;
+    margin: 20px 2% 10px;
     display: inline-grid;
   }
   .twohalfssection{
@@ -313,4 +313,8 @@ footer{
 		box-sizing: border-box;
 		width:70%;
 	}
+  .section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }

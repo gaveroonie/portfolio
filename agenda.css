@@ -2,10 +2,11 @@
 	background: linear-gradient(
       rgba(0, 0, 0, 0.45), 
       rgba(0, 0, 0, 0.45)
-    ), url(images/overview/overviewheader5.png),linear-gradient(127deg, #ee2a4e 0%, #ff6f44 100%);
-    background-size:cover;
+    ),url(images/AgendaCards/headerfrgrnd.png),
+    url(images/AgendaCards/headerbkrnd.png);
+    background-size:cover,contain,cover;
     background-repeat:no-repeat;
-    background-position: right top;
+    background-position:right bottom,right bottom,top right;
 	height:250px;
 	margin: auto;
 	width: 100%;
@@ -64,11 +65,11 @@
 @media (min-width:700px) {
 	.articleheader{
 		background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%),
-		url(images/overview/overviewheader5.png),
-		linear-gradient(127deg, #ee2a4e 0%, #ff6f44 100%);
-		background-size:contain;
+		url(images/AgendaCards/headerfrgrnd.png),
+		url(images/AgendaCards/headerbkrnd.png);
+		background-size:cover,contain,cover;
     	background-repeat:no-repeat;
-    	background-position: right bottom;
+    	background-position: right bottom,right bottom,top right;
 		height:400px;
 	}
 	.imagesectionhead{
@@ -84,10 +85,9 @@
 } 
 @media (min-width:1335px) {
 	.articleheader{
-		background: url(images/overview/overviewheader5.png),
-		linear-gradient(127deg, #ee2a4e 0%, #ff6f44 100%);
-		background-size:contain;
+		background:url(images/AgendaCards/headerfrgrnd.png), url(images/AgendaCards/headerbkrnd.png);
+		background-size:contain,cover;
     	background-repeat:no-repeat;
-    	background-position: right bottom;
+    	background-position: right bottom,top right;
 		height:400px;
 	}
