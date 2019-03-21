@@ -12,55 +12,6 @@
 	position: relative;
 	padding:0;
 }
-.probcircle{
-	width:20%;
-	vertical-align: middle;
-}
-.imagesectionhead{
-	background-position: top;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height:250px;
-	margin: auto;
-	width: 100%;
-	position: relative;
-	padding:0;
-}
-.dark{
-	background:#222222;
-	min-height: 200px;
-	margin:0;
-	width: 100%;
-}
-.imagesectionheadtext{
-	position: absolute;
-	bottom: 0px;
-	margin: 0 0 0 0!important ;
-	line-height: 0px;
-	font-size: 14vw;
-    line-height: 7vw;
-}
-.imagesectionheadtexttop{
-	position: absolute;
-	bottom: 0px;
-	margin: 0 0 0 0!important ;
-	font-size:20px;
-	line-height:21vw;
-} 
-.wide{
-	width:90%;
-	max-width: 1800px;
-	margin: auto;
-}
-.cardlrgtext{
-	color:#ffffff;
-	text-align:left;
-	font-size:66px;
-	line-height:64px;
-	padding:20px;
-	margin:0;
-}
-
 @media (min-width:700px) {
 	.articleheader{
 		background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%),
@@ -71,17 +22,7 @@
     	background-position: right bottom;
 		height:400px;
 	}
-	.imagesectionhead{
-		height:400px;
-	}
-	.imagesectionheadtext{
-		font-size:9vw;
-		line-height: 4vw;
-	}
-	.imagesectionheadtexttop{
-		font-size:30px;
-		line-height:13vw;
-} 
+}
 @media (min-width:1335px) {
 	.articleheader{
 		background: url(images/overview/overviewheader5.png),
@@ -91,3 +32,4 @@
     	background-position: right bottom;
 		height:400px;
 	}
+}
