@@ -26,6 +26,10 @@
 	font-size: 14vw;
     line-height: 7vw;
 }
+.imagesectionheadtext2{
+	font-size: calc(70px + 8 * ((100vw - 320px) / 700));
+    line-height: calc(56px + 8 * ((100vw - 320px) / 700));
+}
 .imagesectionheadtexttop{
 	position: absolute;
 	bottom: 0px;
