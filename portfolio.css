@@ -119,8 +119,8 @@ h5{
   text-transform: uppercase;
 }
 p{
-	font-size: 18px;
-	line-height: 26px;
+	font-size: 20px;
+	line-height: 30px;
 	text-align: left;
 	color:#656363;
 	margin: 10px 0 0 0;
@@ -129,8 +129,8 @@ p{
 	font-style: normal;
 }
 p.light{
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 30px;
   text-align: left;
   color:#999999;
   margin: 10px 0 0 0;
@@ -159,14 +159,19 @@ ul {
   list-style-image: url('images/Homepage/Bulletpoint.svg');
 }
 li{
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 30px;
   margin-bottom: 19px;
   text-align: left;
   color:#656363;
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.list-heading{
+  margin: 20px 0 15px -18px;
+  font-size: 30px;
+  line-height: 30px
 }
 .correct{
   color:#6a9919 !important;
