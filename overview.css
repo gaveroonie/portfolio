@@ -5,12 +5,13 @@
     ), url(images/overview/overviewheader5.png),linear-gradient(127deg, #ee2a4e 0%, #ff6f44 100%);
     background-size:cover;
     background-repeat:no-repeat;
-    background-position: right top;
+    background-position: top,right top 34px, bottom;
 	height:250px;
 	margin: auto;
 	width: 100%;
 	position: relative;
 	padding:0;
+	overflow: hidden;
 }
 @media (min-width:700px) {
 	.articleheader{
@@ -19,7 +20,7 @@
 		linear-gradient(127deg, #ee2a4e 0%, #ff6f44 100%);
 		background-size:contain;
     	background-repeat:no-repeat;
-    	background-position: right bottom;
+    	background-position:top, right bottom -34px, bottom;
 		height:400px;
 	}
 }
@@ -29,7 +30,7 @@
 		linear-gradient(127deg, #ee2a4e 0%, #ff6f44 100%);
 		background-size:contain;
     	background-repeat:no-repeat;
-    	background-position: right bottom;
+    	background-position: right bottom -34px, bottom;
 		height:400px;
 	}
 }
