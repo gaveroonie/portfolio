@@ -23,9 +23,10 @@
   box-sizing: border-box;
   -webkit-animation: slide 20s linear infinite;
   background-repeat:repeat;
+  animation-direction: reverse;
 }
 .gradient{
-  background:linear-gradient(127deg, #5c2668 0%, #00b4ff 100%);
+  background:linear-gradient(127deg, #43006C 0%, #e402ff 100%);
   width: 100%;
   margin: 0;
   text-align: center;
@@ -39,24 +40,10 @@
 }
 @media (min-width:700px) {
   .gradient{
-    background:linear-gradient(127deg, #5c2668 0%, #00b4ff 100%);
-    width: 100%;
-    margin: 0;
-    text-align: center;
     height: 400px;
-    padding-top: 0px;
 }
   .hero-bkg-animated {
-    background: url(images/overview/overviewx.svg) repeat 0 0;
-    width: 100%;
-    margin: 0;
-    text-align: center;
     height: 400px;
-    padding-top: 0px;
-    box-sizing: border-box;
-    -webkit-animation: slide 50s linear infinite;
-    animation-direction: reverse;
-    background-repeat:repeat;
 }
 	.articleheader{
 		background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%),
@@ -70,18 +57,18 @@
 @media (min-width:1335px) {
 	.articleheader{
 		background: url(images/Overview/overviewheader9.png);
-    	background-size: 800px;
-    	background-repeat: no-repeat;
-    	background-position: right top;
-		height:400px;
+    	background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: right -160px top -129px;
+    height: 400px;
 	}
 }
 @media (min-width:1800px) {
   .articleheader{
     background: url(images/Overview/overviewheader9.png);
-      background-size: 1200px;
-      background-repeat: no-repeat;
-      background-position: right top;
-    height:400px;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: right -13px top -129px;
+    height: 400px;
   }
 }
