@@ -1,0 +1,85 @@
+.cardlrgtext{
+	color:#ffffff;
+	text-align:left;
+	font-size:66px;
+	line-height:64px;
+	padding:20px;
+	margin:0;
+}
+.conceptsgrid{
+	background-color: #e3e3e3;
+	width:95%;
+	height: 100%;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows:auto 100%;
+	grid-gap:6%3%;
+	padding: 3%;
+}
+.conceptitem1{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:1;
+	grid-row-end:2;
+	overflow: visible;
+}
+.conceptitem2{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:2;
+}
+.conceptitem3{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:1;
+	grid-row-end:2;
+
+}
+.conceptitem4{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:2;
+	grid-row-end:3;
+
+}
+.conceptitem5{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:2;
+	grid-row-end:3;
+}
+.conceptitem6{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:2;
+	grid-row-end:3;
+
+}
+
+@media (min-width:1000px) {
+}
