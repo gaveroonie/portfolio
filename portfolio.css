@@ -201,7 +201,7 @@ hr {
 .mainbodytext{
 	width: 100%;
 	box-sizing: border-box;
-  margin: auto;
+  margin:0 auto;
 }
 .centerheader{
 	display:inline-block;
