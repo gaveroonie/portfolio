@@ -55,6 +55,17 @@
   	height: auto;
   	display: inline-grid;
 }
+.new{
+	background-color: #ff3300;
+    color: #ffffff;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 1px 3px;
+    vertical-align: bottom;
+}
 
 @media (min-width:700px) {
 	.truehalf{
