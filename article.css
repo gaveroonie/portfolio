@@ -1,5 +1,5 @@
 .probcircle{
-	width:20%;
+	width:100px;
 	vertical-align: middle;
 }
 .imagesectionhead{
@@ -50,8 +50,19 @@
 	padding:20px;
 	margin:0;
 }
+.truehalf{
+	width: 100%;
+  	height: auto;
+  	display: inline-grid;
+}
 
 @media (min-width:700px) {
+	.truehalf{
+		width: 47%;
+	  	height: auto;
+	  	display: inline-grid;
+	  	padding: 1%;
+}
 	.imagesectionhead{
 		height:400px;
 	}
