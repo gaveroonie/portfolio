@@ -11,7 +11,7 @@
 	height: 100%;
 	display:grid;
 	grid-template-columns:1fr 1fr;
-	grid-template-rows:auto auto;
+	grid-template-rows:auto auto auto;
 	grid-gap: 3% 3%;
 }
 .prototypeitem1{
@@ -43,14 +43,71 @@
 	height: auto;
 	overflow: visible;
 	background-repeat: no-repeat;
-	grid-column-start:2;
+	grid-column-start:1;
 	grid-column-end:3;
 	grid-row-start:2;
 	grid-row-end:3;
 	overflow: visible;
 	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
 }
-
+.prototypeitem4{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-row-start:3;
+	grid-row-end:4;
+	overflow: visible;
+	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
+}
+.conceptsvid{
+	background-color: #eeeeee;
+	width:100%;
+	max-width: 100%;
+	display:grid;
+	grid-template-columns:1fr;
+	grid-template-rows:auto auto auto;
+	grid-gap: 7% 3%;
+    padding: 3%;
+}
+.conceptviditem1{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:1;
+	grid-row-end:2;
+	overflow: visible;
+	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
+}
+.conceptviditem2{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:2;
+	grid-row-end:3;
+	overflow: visible;
+	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
+}
+.conceptviditem3{
+	background-size: contain;
+	height: auto;
+	overflow: visible;
+	background-repeat: no-repeat;
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:3;
+	grid-row-end:4;
+	overflow: visible;
+	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
+}
 
 .conceptsgrid2{
 	background-color: #eeeeee;
