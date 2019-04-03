@@ -195,7 +195,7 @@
 	display:grid;
 	grid-template-columns:1fr;
 	grid-template-rows:auto auto auto auto auto auto;
-	grid-gap: 2% 3%;
+	grid-gap: 4% 3%;
 }
 .conceptitem1{
 	background-size: contain;
@@ -271,7 +271,6 @@
 .conceptsgrid2{
 	background-color: #eeeeee;
 	width:100%;
-	max-width: 400px;
 	display:grid;
 	grid-template-columns:1fr;
 	grid-template-rows:auto auto auto auto auto auto;
@@ -433,83 +432,5 @@
 	grid-gap: 7% 3%;
     padding: 3%;
 }
-.conceptsgrid2{
-	background-color: #eeeeee;
-	width:100%;
-	max-width: 100%;
-	display:grid;
-	grid-template-columns:1fr 1fr;
-	grid-template-rows:auto auto auto;
-	grid-gap: 7% 3%;
-    padding: 3%;
-}
-.concept2item1{
-	background-size: contain;
-	height: auto;
-	overflow: visible;
-	background-repeat: no-repeat;
-	grid-column-start:1;
-	grid-column-end:2;
-	grid-row-start:1;
-	grid-row-end:2;
-	overflow: visible;
-	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
-}
-.concept2item2{
-	background-size: contain;
-	height: auto;
-	overflow: visible;
-	background-repeat: no-repeat;
-	grid-column-start:2;
-	grid-column-end:3;
-	grid-row-start:1;
-	grid-row-end:2;
-	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
-}
-.concept2item3{
-	background-size: contain;
-	height: auto;
-	overflow: visible;
-	background-repeat: no-repeat;
-	grid-column-start:1;
-	grid-column-end:2;
-	grid-row-start:2;
-	grid-row-end:3;
-	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
 
-}
-.concept2item4{
-	background-size: contain;
-	height: auto;
-	overflow: visible;
-	background-repeat: no-repeat;
-	grid-column-start:2;
-	grid-column-end:3;
-	grid-row-start:2;
-	grid-row-end:3;
-	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
-
-}
-.concept2item5{
-	background-size: contain;
-	height: auto;
-	overflow: visible;
-	background-repeat: no-repeat;
-	grid-column-start:1;
-	grid-column-end:2;
-	grid-row-start:3;
-	grid-row-end:4;
-	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
-}
-.concept2item6{
-	background-size: contain;
-	height: auto;
-	overflow: visible;
-	background-repeat: no-repeat;
-	grid-column-start:2;
-	grid-column-end:3;
-	grid-row-start:3;
-	grid-row-end:4;
-	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
-}
 }

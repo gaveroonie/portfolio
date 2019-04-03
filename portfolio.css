@@ -119,8 +119,8 @@ h5{
   text-transform: uppercase;
 }
 p{
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 18px;
+	line-height: 27px;
 	text-align: left;
 	color:#656363;
 	margin: 10px 0 0 0;
@@ -129,8 +129,8 @@ p{
 	font-style: normal;
 }
 p.light{
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 27px;
   text-align: left;
   color:#999999;
   margin: 10px 0 0 0;
@@ -159,8 +159,8 @@ ul {
   list-style-image: url('images/Homepage/Bulletpoint.svg');
 }
 li{
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 27px;
   margin-bottom: 19px;
   text-align: left;
   color:#656363;
@@ -311,7 +311,7 @@ footer{
   .breif{
     flex:1;
     padding-right: 3%;
-    width: 10%;
+    width: 30%;
   }
   .mainbodytext{
 		padding: 0  6%;
