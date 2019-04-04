@@ -66,6 +66,10 @@
     padding: 1px 3px;
     vertical-align: bottom;
 }
+.conceptimg{
+	margin-bottom: 10%;
+	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
+}
 
 @media (min-width:700px) {
 	.truehalf{
