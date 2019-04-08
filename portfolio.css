@@ -21,6 +21,9 @@ a:active {
   color:#00b4ff;
   text-decoration:none !important;
 }
+.logocolor:hover .cls-1{
+                    fill: #a32b0d;
+                  }
 #logo {
   -webkit-filter: grayscale(0%);
     -webkit-transition: .1s ease-in-out;
