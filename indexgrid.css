@@ -59,7 +59,7 @@ h4.cardtext{
 	width:100%;
 	display:grid;
 	grid-template-columns:1fr;
-	grid-template-rows: 300px 300px 300px;
+	grid-template-rows: 300px 300px 300px 300px;
 	grid-gap:15px;
 }
 .workitem1{
@@ -110,7 +110,7 @@ h4.cardtext{
 		width:100%;
 		display:grid;
 		grid-template-columns:1fr 1fr;
-		grid-template-rows: 300px 300px;
+		grid-template-rows: 300px 300px 300px;
 	}
 	.workitem1{
 		grid-column-start:1;
@@ -144,6 +144,12 @@ h4.cardtext{
 	}
 }
 @media (min-width:1000px) {
+	.workgrid{
+		width:100%;
+		display:grid;
+		grid-template-columns:1fr 1fr 1fr;
+		grid-template-rows: 300px 300px;
+		}
 	.workitem1{
 		grid-column-start:1;
 		grid-column-end:2;
@@ -174,10 +180,5 @@ h4.cardtext{
 		grid-row-start:2;
 		grid-row-end:3;
 	}
-	.workgrid{
-		width:100%;
-		display:grid;
-		grid-template-columns:1fr 1fr 1fr;
-		grid-template-rows: 300px;
-		}
+	
 }

@@ -158,6 +158,9 @@ h4.light{
 h5.light{  
   color: #ffffff;
 }
+li.light{
+   color:#999999;
+}
 ul {
   list-style-position: outside;
   list-style-type: circle;
@@ -183,6 +186,14 @@ li{
 }
 .incorrect{
   color:#dd3907 !important;
+}
+.qoute{
+  padding: 40px 0;
+  font-size: 26px;
+  line-height: 30px;
+  width: 110%;
+  margin: 0 auto;
+  font-style: oblique;
 }
 hr {
   width: 100%;
