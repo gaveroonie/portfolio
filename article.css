@@ -44,6 +44,14 @@
 	font-size: 14vw;
     line-height: 7vw;
 }
+.imagesectionheadtextmac{
+	position: absolute;
+	top: 80px;
+	margin: 0 0 0 0!important ;
+	line-height: 0px;
+	font-size: 14vw;
+    line-height: 7vw;
+}
 .imagesectionheadtext2{
 	font-size: calc(60px + 12 * ((100vw - 320px) / 700));
     line-height: calc(46px + 12 * ((100vw - 320px) / 700));
@@ -89,8 +97,22 @@
 	box-shadow: 4px 5px 5px rgba(0,0,0,0.2);
 	display: grid;
 }
+.macbookimg{
+  	position: relative;
+  	top: -200px;
+}
+.anglecut{
+	min-height:400px; 
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
 
 @media (min-width:700px) {
+	.anglecut{
+	    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	z-index: -100;
+	}	
 	.truehalf{
 		width: 47%;
 	  	height: auto;
@@ -101,6 +123,11 @@
 		height:400px;
 	}
 	.imagesectionheadtext{
+		font-size:9vw;
+		line-height: 4.9vw;
+	}
+	.imagesectionheadtextmac{
+		top: 120px;
 		font-size:9vw;
 		line-height: 4.9vw;
 	}
@@ -123,6 +150,9 @@
     display: flex;
     flex-direction: row;
 	}
+	.macbookimg{
+    	top: -300px;;
+  } 
 }	 
 @media (min-width:1335px) {
 	.imagesectionheadtext2{
