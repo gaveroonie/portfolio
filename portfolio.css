@@ -240,7 +240,7 @@ hr {
 	height: auto;
 }
 .halfwidthimg{
-  width: 100%;
+  width: 96%;
   height: auto;
   margin: 20px 2% 10px;;
   display: inline-grid;
@@ -309,10 +309,11 @@ footer{
   line-height: 24px;
   } 
   .halfwidthimg{
-    width: 44%;
+    width: 45.5%;
     height: auto;
     margin:2%;
     display: inline-grid;
+    box-sizing: border-box;
   }
   .quarterwidthimg{
     width: 20%;

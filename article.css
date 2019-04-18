@@ -106,7 +106,10 @@
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
-
+.grey{
+	background-color: #eeeeee;
+	margin: 25px auto 80px;
+}
 
 @media (min-width:700px) {
 	.anglecut{
@@ -159,6 +162,11 @@
 	.imagesectionheadtext2{
 		font-size:6vw;
 		line-height: 5vw;
+	}
+	.imagesectionheadtextmac{
+		top: 120px;
+		font-size:120px;
+		line-height: 4.9vw;
 	}
 }
 @media (min-width:2000px) {
