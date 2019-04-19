@@ -109,8 +109,14 @@
 .grey{
 	background-color: #eeeeee;
 	margin: 25px auto 80px;
+	width: 95%;
+	padding:2%;
 }
-
+.centercolumn{
+	width:90%;
+	max-width: 750px;
+	margin:auto;
+}
 @media (min-width:700px) {
 	.anglecut{
 	    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -157,6 +163,16 @@
 	.macbookimg{
     	top: -300px;;
   } 
+  .centercolumn{
+		width:85%;
+		max-width: 750px;
+		margin:auto;
+	}
+	.grey{
+		width:95%;
+		max-width: 850px;
+		margin: 20px auto 80px;
+	}
 }	 
 @media (min-width:1335px) {
 	.imagesectionheadtext2{
