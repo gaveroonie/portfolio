@@ -213,11 +213,15 @@ hr {
 .breif{
 	width: 100%;
 	box-sizing: border-box;
+  margin:0 auto;
+  max-width: 500px;
+  min-width: 300px;
 }
 .mainbodytext{
 	width: 100%;
 	box-sizing: border-box;
   margin:0 auto;
+  max-width: 500px;
 }
 .centerheader{
 	display:inline-block;
@@ -291,7 +295,7 @@ footer{
   margin-top: 30px;
 }
 
-@media (min-width:750px) {
+@media (min-width:850px) {
    a h1{
     -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
@@ -329,11 +333,14 @@ footer{
     flex:1;
     padding-right: 3%;
     width: 25%;
+    max-width: none;
+
   }
   .mainbodytext{
 		padding: 0  6%;
 		box-sizing: border-box;
 		width:70%;
+    max-width: 1000px;
 	}
   .section{
     padding-top: 80px;

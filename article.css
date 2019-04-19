@@ -16,9 +16,28 @@
 	display: flex;
     flex-direction: column;
 }
+.problemtable{
+	width: 100%;
+}
+.problem{
+	width:100%;
+	min-height: 100px;
+	max-width: 650px;
+	margin: 50px 0;
+	display: block;
+}
 .probcircle{
 	width:100px;
 	vertical-align: middle;
+	float: center;
+	margin:auto; 
+}
+.probtext{
+	display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    min-width: 260px;
+    text-align: left;
 }
 .imagesectionhead{
 	background-position: top;
@@ -111,17 +130,28 @@
 	margin: 25px auto 80px;
 	width: 95%;
 	padding:2%;
+	max-width: 650px;
 }
 .centercolumn{
 	width:90%;
-	max-width: 750px;
+	max-width:500px;
 	margin:auto;
+}
+@media (min-width:570px) {
+	.probtext{
+		display: inline;
+	}
+	.probcircle{
+		float: left;
+		 margin-right: 20px;
+	}
+
 }
 @media (min-width:700px) {
 	.anglecut{
 	    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-	z-index: -100;
+		clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+		z-index: -100;
 	}	
 	.truehalf{
 		width: 47%;
@@ -150,7 +180,7 @@
 		line-height:13vw;
 }
 }
-@media (min-width:750px) {
+@media (min-width:850px) {
 	#toptobottom{order:1;}
 	#bottomtotop{order:2;}
 	/* Safari 6.1+ */
@@ -185,7 +215,26 @@
 		line-height: 4.9vw;
 	}
 }
+@media (min-width:1650px) {
+	.problem{
+		width:45%;
+		display: inline-table;
+		max-width: 500px;
+	    margin: 50px 4% 50px 0;
+	}
+	.problemtable{
+		width:120%;
+	}
+}	
 @media (min-width:2000px) {
 .imagesectionheadtext{
 		font-size:122px;
 		line-height:75px;
+	}
+	.problem{
+		width:45%;
+		display: inline-table;
+		max-width: 500px;
+	    margin: 50px 9% 50px 0;
+	}
+}
