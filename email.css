@@ -40,7 +40,7 @@ h2{
   100% { opacity: 0; }
 }
 .header{
-	background:url(images/bkrnd1.png),linear-gradient(127deg, #95c11f 0%, #006633 100%);
+	background:url(images/email/bkrnd1.png),linear-gradient(127deg, #95c11f 0%, #006633 100%);
 	width:100%;
 	text-align: center;
 	padding-top:50px;
