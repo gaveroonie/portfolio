@@ -7,6 +7,24 @@ h2{
 	font-size: 60px;
 	color:#ffffff;
 }
+p{
+	font-size: 1em;
+	line-height: 27px;
+	text-align: left;
+	color:#656363;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+p .pixel{
+	font-size: 1em;
+	line-height: 27px;
+	text-align: left;
+	color:#656363;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
  #oval {
  	width:100%;
       max-width: 120px;
@@ -40,7 +58,7 @@ h2{
   100% { opacity: 0; }
 }
 .header{
-	background:url(images/email/bkrnd1.png),linear-gradient(127deg, #95c11f 0%, #006633 100%);
+	background:url(images/email/ bkrnd1.png),linear-gradient(127deg, #95c11f 0%, #006633 100%);
 	width:100%;
 	text-align: center;
 	padding-top:50px;
