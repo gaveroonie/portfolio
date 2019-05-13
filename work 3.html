@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-GB">
-  <head>
+<head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="workgrid 3.css">
-    <script src="javascript.js" defer></script>
-    <link rel="stylesheet" href="https://use.typekit.net/bjk2aea.css">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/workgrid 3.css">
+  <link rel="stylesheet" href="css/nav2.css">
+  <script src="js/nav.js" defer></script>
+  <link rel="stylesheet" href="https://use.typekit.net/bjk2aea.css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 	<title>Work</title>
 </head>
 
   <body>
-    <header>
-    <div class="logoheader" id="">
-      <div class="l-wrap">
-        <div class="logo">
-        <a href="index.html">
-          <img src="images/uxlogo.svg" lt="UXlogo" width="223" height="56" onerror="this.onerror=null; this.src='images/uxlogo.png'">
-        </a>
-        </div>
+    <div id="navigation">
+      <div class="navwrap">
+        <header class="main-header">
+        <div class="toggle menu">&#9776;</div>
+          <a href="work 3.html" class="site-logo">
+            <img src="images/uxlogo2.svg" alt="gb-logo">
+          </a>   
+          <ul class="nav">
+            <li><a class="current" href="work 3.html">HOME</a></li>
+            <li><a href="work 3.html">WORK</a></li>
+            <li><a href="work 3.html">INTERESTS</a></li>
+            <li><a href="work 3.html">CONTACT</a></li>
+          </ul>
+        </header>
       </div>
-    <div>
-    </header>
+    </div>
+    <!--navend-->
     <div class="homepageheader">
       <div class="lefthalf">
           <div class="profile"></div>
@@ -187,6 +194,19 @@
         </div>
       </div>
     </div>
-    <!--Endofwork-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script  src="js/index.js"></script>
+    <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navigation").style.top = "0";
+  } else {
+    document.getElementById("navigation").style.top = "-900px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 	</body>
 </html>

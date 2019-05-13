@@ -1,18 +1,17 @@
-
 .homepageheader{
 	width: 100%;
 }
 .lefthalf {
 	flex: 1;
     width: 100%;
-    padding: 6%;
+    padding: 100px 6% 6%;
     box-sizing: border-box;
     background: #222222;
     text-align: center;
 }
 .righthalf {
 	width: 100%;
-  	background-image: url("images/Homepage/edgecirclehori.svg"),url("images/Homepage/dotpattern.png"), url("images/Homepage/desk.png");
+  	background-image: url("../images/Homepage/edgecirclehori.svg"),url("../images/Homepage/dotpattern.png"), url("../images/Homepage/desk.png");
   	background-position: top,center, left;
     background-size:contain,auto, cover;
     min-height: 150px;
@@ -29,15 +28,18 @@
 	width:200px;
 	border-radius:50%;
 	margin: auto;
-    background: url("images/homepage/profile4A.png") no-repeat;
+    background: url("../images/homepage/profile4A.png") no-repeat;
     background-size:cover;
     display: inline-block;
     z-index: 1;
 }
 .profile:hover {
-   background: url("images/homepage/profile4B.png") no-repeat;
+   background: url("../images/homepage/profile4B.png") no-repeat;
    background-size:cover;
    }
+.profiletxt{
+	text-align:center;
+}
 .white{
 	color:white;
 	text-align:center !important;
@@ -126,6 +128,9 @@
 	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
 }
 @media (min-width: 550px){
+	.profiletxt{
+	text-align:left;
+}
 	.lefthalf {
 		flex: 1;
 	    min-width: 40%;
@@ -137,8 +142,8 @@
 	}
 	.righthalf {
 		width: 100%;
-	  	background-image: url("images/Homepage/edgecircle.svg"),url("images/Homepage/dotpattern.png"), url("images/Homepage/desk.png");
-	  	background-position:left,center, left;
+	  	background-image: url("../images/Homepage/edgecircle.svg"),url("../images/Homepage/dotpattern.png"), url("../images/Homepage/desk.png");
+	  	background-position:left,center, left top 21px;
 	    background-size:contain,auto, cover;
 	    min-height: 800px;
 	    background-repeat: no-repeat, repeat;
@@ -156,7 +161,7 @@
 	    max-width: 30%;
 	}
 	.profile {
-	    background: url("images/homepage/profile4.png") no-repeat;
+	    background: url("../images/homepage/profile4.png") no-repeat;
 	    background-size:cover;
 	    border-radius: 50%;
 	    margin: 100px  0px 0px;

@@ -58,7 +58,7 @@ p{
   100% { opacity: 0; }
 }
 .header{
-	background:url(images/email/bkrnd1.png);
+	background:url(../images/email/bkrnd1.png);
 	width:100%;
 	text-align: center;
 	padding-top:50px;

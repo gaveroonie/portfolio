@@ -2,9 +2,9 @@
 	background: linear-gradient(
       rgba(0, 0, 0, 0.45), 
       rgba(0, 0, 0, 0.45)
-    ),url(images/AgendaCards/headerfrgrnd.png),
-    url(images/AgendaCards/headerbkrnd.png);
-    background-size:cover,contain,cover;
+    ),url(../images/speakers/speakerfrgrnd.png),
+    linear-gradient(127deg, #56ab2f 0%, #a8e063 100%);;
+    background-size:cover,cover,cover;
     background-repeat:no-repeat;
     background-position:right bottom,right bottom,top right;
 	height:250px;
@@ -16,20 +16,22 @@
 @media (min-width:700px) {
 	.articleheader{
 		background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%),
-		url(images/AgendaCards/headerfrgrnd.png),
-		url(images/AgendaCards/headerbkrnd.png);
-		background-size:cover,contain,cover;
+		url(../images/speakers/speakerfrgrnd.png),
+		linear-gradient(127deg, #56ab2f 0%, #a8e063 100%);
+		background-size:cover,cover,cover;
     	background-repeat:no-repeat;
     	background-position: right bottom,right bottom,top right;
 		height:400px;
 	}
-} 
+}
+
 @media (min-width:1335px) {
 	.articleheader{
-		background:url(images/AgendaCards/headerfrgrnd.png), url(images/AgendaCards/headerbkrnd.png);
-		background-size:contain,cover;
-    	background-repeat:no-repeat;
-    	background-position: right 100px bottom,top right;
-		height:400px;
+		background:url(../images/speakers/speakerfrgrnd.png),
+		linear-gradient(127deg, #56ab2f 0%, #a8e063 100%);
+		background-size: 78%, 100%;
+    	background-repeat: no-repeat;
+    	background-position: right center,top right;
+    	height: 400px;
 	}
 }

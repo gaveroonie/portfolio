@@ -164,7 +164,7 @@ li.light{
 ul {
   list-style-position: outside;
   list-style-type: circle;
-  list-style-image: url('images/Homepage/Bulletpoint.svg');
+  list-style-image: url('../images/Homepage/Bulletpoint.svg');
 }
 li{
   font-size: 18px;

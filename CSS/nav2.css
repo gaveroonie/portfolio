@@ -1,0 +1,137 @@
+.main-header,.nav{
+  display:flex;
+  flex-direction: column;
+}
+#navigation{
+  background-color:#222222;
+  width: 100%;
+  position:fixed;
+  top:0;
+  transition: top 0.3s;
+  z-index: 100; 
+}
+.toggle {
+  width: 96%;
+  padding: 10px 20px;
+  background: #222222;
+  text-align:right;
+  color: white;
+  font-size: 30px;
+  display: block;
+  }
+.active {
+  display: none;
+  }
+ul {
+  width: 100%;
+  display: none;
+  list-style-type: none;
+  padding-inline-start: 0px !important;
+  } 
+ul li.nav {
+  display: block;
+  text-align: center;
+  padding:20px;
+  width:100%;
+  }
+.navwrap{
+  background-color: #222222;
+  width:90%;
+  max-width: 1400px;
+  text-align: center;
+  margin:auto;
+}
+.main-header{
+  padding-top:1em;
+  background-color: #222222;
+  min-height: 71px;
+}
+.site-logo{
+  align-self:center;
+  position: absolute;
+}
+.nav {
+  margin-top:1.5em;
+}
+.nav li{
+  list-style: none;
+}
+.nav a {
+  display:block;
+  color:#ffffff;
+  font-size:1.125em;
+  font-weight: 400;
+  text-align:center;
+  font-family:proxima-nova, sans-serif;
+  padding:2em;
+  border-bottom: 3px solid #333333;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: #ff3300;
+  border-bottom: 3px solid #ff3300;
+}
+.current {
+    background-color:#333; 
+}
+@media(min-width:769px){
+    ul{
+      display: contents;
+    }
+    li{
+      display: contents;
+    }
+    .toggle {
+    display: none;
+    }
+    .active {
+    display:inherit;
+    }
+    .main-header{
+      height:178px;
+      justify-content: flex-end;
+      padding-top: 0px;
+    }
+    .site-logo{
+    align-self:center;
+    position: inherit;
+    }
+    .nav{
+      flex-direction: row;
+      justify-content:space-between;
+      max-width: 651px;
+      margin: 1em auto 1em;
+    }
+    .nav a {
+      border-bottom-color:transparent;
+      padding: 1em;
+    }
+    .current:hover {
+      border-bottom:3px solid #ff3300!important;
+      padding: 1em;
+    }
+    .current {
+      border-bottom:3px solid #444444!important;
+      padding: 1em;
+      background-color:transparent; 
+    }
+  }
+  @media(min-width:1025px){
+    .main-header{
+    flex-direction: row;
+    height: 150px;
+    }
+    .site-logo{
+      margin-right:auto;
+      margin-top: 0;
+    }
+    .nav{
+      margin: auto;
+      align-self: center;
+      width: 50%;
+    }
+    .nav li{
+      margin-left: 0.65em;
+      margin-right: 0.65em;
+    }
+  }
