@@ -143,7 +143,7 @@
 	.righthalf {
 		width: 100%;
 	  	background-image: url("../images/Homepage/edgecircle.svg"),url("../images/Homepage/dotpattern.png"), url("../images/Homepage/desk.png");
-	  	background-position:left,center, left top 21px;
+	  	background-position:left,center, left top;
 	    background-size:contain,auto, cover;
 	    min-height: 800px;
 	    background-repeat: no-repeat, repeat;
