@@ -3,7 +3,7 @@ $(document).ready(function () {
   'use strict';
   
    var c, currentScrollTop = 0,
-       navbar = $('nav');
+       navbar = $('nav .navigation');
 
    $(window).scroll(function () {
       var a = $(window).scrollTop();
@@ -20,10 +20,3 @@ $(document).ready(function () {
   });
   
 });
-
-
-$(document).ready(() => {
-  $('.menu').click(()=>{
-    $('ul').toggleClass('active')
-  })
-})

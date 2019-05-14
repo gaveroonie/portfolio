@@ -7,7 +7,7 @@
   width: 100%;
   position:fixed;
   top:0;
-  transition: top 0.3s;
+  transition: top 0.9s;
   z-index: 100; 
 }
 .toggle {
