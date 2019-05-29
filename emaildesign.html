@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="stylesheet" href="css/portfolio.css">
         <link rel="stylesheet" href="css/ticket.css">
-            <link rel="stylesheet" href="article.css">
+            <link rel="stylesheet" href="css/article.css">
+              <link rel="stylesheet" href="css/nav.css">
+    <script src="js/nav.js" defer></script>
     <script src="javascript.js" defer></script>
     <link rel="stylesheet" href="https://use.typekit.net/bjk2aea.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
@@ -13,17 +15,22 @@
 </head>
 
 <body>
-    <header style="height:82px">
-      <div class="logoheader" id="myHeader">
-        <div class="l-wrap">
-          <div class="logo">
-          <a href="index.html">
-            <img id="logo" src="images/uxlogo.svg" lt="UXlogo" width="223" height="56" onerror="this.onerror=null; this.src='images/uxlogo.png'">
-          </a>
-          </div>
-        </div>
-      <div>
-    </header>
+  <nav> 
+    <div class="main-header">
+      <div class="toggle menu">&#9776;</div>
+        <a class="site-logo">
+          <img src="images/uxlogo2.svg" alt="gb-logo">
+        </a>  
+        
+        <ul class="navbar">
+          <li><a class="current" href="index.html">HOME</a></li>
+          <li><a href="index.html">WORK</a></li>
+          <li><a href="index.html">INTERESTS</a></li>
+          <li><a href="index.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 		<!--endofheader-->
     <div class="articleheader">
       <div class="wide" style="text-shadow: 3px 2px 5px rgba(0,0,0,0.3);">
@@ -43,16 +50,16 @@
      			<p>When I worked as part of a web development team every so often marketing would swing by and ask one of the developers to help fix or even redesign a marketing email template, this was usually met with developers becoming very busy very suddenly,.<br>I never understood why they hated it soo much, and as it was a job that no developer really wanted I thought it would be a good place to start to learn to code.</p>
 
           <h3>What I found out very quickly</h3>
-          <p>Email design uses the same (CSS &amp; html) code as a website but anything added since say the year 2000 hasnt quite made it to email, or at least not to all mail clients. Tables is the main technique used to layout the elements in an email. Tables havent been used in web design since the 2000’s.</p>
+          <p>Email design uses the same (CSS &amp; html) code as a website but anything added since say the year 2000 hasn’t quite made it to email, or at least not to all mail clients. Tables is the main technique used to layout the elements in an email. Tables haven’t been used in web design since the 2000’s.</p>
 
           <p class="qoute">"The phrase code like its 90’s is often thrown around when talking about email development."</p>
 
-          <p>The difference between one mail client and another is vast, Apple mail clients are great and i think give you the most freedom, Microsoft Outlook is a thorn in any email developers side. I think they have improved alot but since emails need to work on older versions it is still a problem today.</p>
+          <p>The difference between one mail client and another is vast, Apple mail clients are great and i think give you the most freedom, Microsoft Outlook is a thorn in any email developers side. I think they have improved a lot but since emails need to work on older versions it is still a problem today.</p>
 
-          <p>Its like the difference between producing somthing that works on a black and white TV a color TV & a HD state of the Art TV and trying to get somthing that looks great on all of them is very difficult.</p>
+          <p>Its like the difference between producing something that works on a black and white TV a colour TV & a HD state of the Art TV and trying to get something that looks great on all of them is very difficult.</p>
 
           <h3>Text &amp; Image</h3>
-          <p>So Text and Images pretty simple stuff the ingrediants to any email. Now the problem arises when you try and mix the two. (but every email Ive seen has a text and header image I hear you cry) What you are more than likley seeing is a header banner created in photoshop with text logo ect all added and flattened into a png.</p>
+          <p>So Text and Images pretty simple stuff the ingredients to any email. Now the problem arises when you try and mix the two. (but every email Ive seen has a text and header image I hear you cry) What you are more than likely seeing is a header banner created in photoshop with text logo ect all added and flattened into a png.</p>
           <div class="halfwidthimg"><h3>Image Header</h3><img src="images/email/email.gif"><p class="imagedescription">Here the header image is a single image with a width set to 100% so it fills the full width of the email, This is the most common way of making a header</p>
           </div>
          <div class="halfwidthimg"><h3>Image with live text </h3><img src="images/email/email2.gif"><p class="imagedescription">Here we have the image and text as seperate assets so they can rezize indervidually</p>
@@ -130,6 +137,9 @@
       </div>
     </footer>
     <!--Footerend-->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script  src="js/index.js"></script>
         
     
 </body>
