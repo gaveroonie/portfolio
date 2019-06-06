@@ -1,0 +1,21 @@
+.workrighthalf {
+	width: 100%;
+  	background-image: url("../images/Homepage/edgecirclehori.svg"),url("../images/Homepage/dotpattern.png"), url("../images/work/workheader1.jpg");
+  	background-position: top,center, left;
+    background-size:contain,auto, cover;
+    min-height: 150px;
+    background-repeat: no-repeat,repeat, repeat;
+    z-index: -1;
+}
+
+@media (min-width: 550px){
+	.workrighthalf {
+		width: 100%;
+	  	background-image: url("../images/Homepage/edgecircle.svg"),url("../images/Homepage/dotpattern.png"), url("../images/work/58a5c8c82eb75.gif");
+	  	background-position:left,center, left top;
+	    background-size:contain,auto, cover;
+	    min-height: 800px;
+	    background-repeat: no-repeat, repeat;
+	}
+	
+}
