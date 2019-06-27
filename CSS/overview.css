@@ -41,7 +41,7 @@
 		background: linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%), url(../images/overview/overviewheader14.png),linear-gradient(-45deg, #ffffff 0%, #f0f0f0 50%, #59466d 50.01%, #3c3445 100%);
 	    background-size: cover,959px,contain;
 	    background-repeat: no-repeat,no-repeat,no-repeat;
-	    background-position: top, right -372px top 102px, bottom;
+	    background-position: top, right -320px top, bottom;
 	    height: 80vh;
 	    background-attachment: scroll, fixed, scroll;
 	}
