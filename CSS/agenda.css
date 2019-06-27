@@ -1,3 +1,9 @@
+.agendacard{
+	background-image: url(../images/agendaCards/agendacard.png),linear-gradient(-59.5deg, #3c3445 0%, #59466d 72%, #ffffff 72%);
+    background-position: top -83px right -25px,center;
+    background-size: 375px,auto;
+    background-repeat: no-repeat;
+}
 .articleheader{
 	background: linear-gradient(
       rgba(0, 0, 0, 0.45), 

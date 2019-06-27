@@ -71,7 +71,7 @@ h4.cardtext{
 	grid-column-end:2;
 	grid-row-start:1;
 	grid-row-end:2;
-	border-radius: 8px;
+	border-radius: 10px;
 }
 .workitem2{
 	background-color:black;
@@ -79,7 +79,7 @@ h4.cardtext{
 	grid-column-end:2;
 	grid-row-start:2;
 	grid-row-end:3;
-	border-radius: 8px;
+	border-radius: 10px;
 }
 .workitem3{
 	background-color:black;
@@ -87,7 +87,7 @@ h4.cardtext{
 	grid-column-end:2;
 	grid-row-start:3;
 	grid-row-end:4;
-	border-radius: 8px;
+	border-radius: 10px;
 }
 .workitem4{
 	background-color:black;
@@ -95,7 +95,7 @@ h4.cardtext{
 	grid-column-end:2;
 	grid-row-start:4;
 	grid-row-end:5;
-	border-radius: 8px;
+	border-radius: 10px;
 }
 .workitem5{
 	background-color:black;
@@ -106,7 +106,7 @@ h4.cardtext{
 	grid-column-end:2;
 	grid-row-start:5;
 	grid-row-end:6;
-	border-radius: 8px;
+	border-radius: 10px;
 }
 @media (min-width:700px) {
 	.workgrid{

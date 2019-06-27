@@ -1,23 +1,27 @@
+.overviewcard{
+	background: url(../images/overview/overviewheader14.png), linear-gradient(-32deg, #3c3445 0%, #59466d 55%, #ffffff 55.1%);
+    background-position: right -108px top -59px,center;
+    background-size: 500px,auto;
+    background-repeat: no-repeat;
+}
+
 .finalsheader{
 	background-image: url(../images/overview/prototypeheader2.png),linear-gradient(180deg, #fafafa 0%, #eeeeee 100%);
 	background-size: 120%,cover;background-repeat: no-repeat,repeat;
 	background-position: top right,left;
 }
-
 .articleheader{
-	background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    ), url(../images/overview/overviewheader5.png),linear-gradient(127deg, #ee2a4e 0%, #ff6f44 100%);
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: top,right top 10px, bottom;
-	height:250px;
-	margin: auto;
-	width: 100%;
-	position: relative;
-	padding:0;
-	overflow: hidden;
+	background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(../images/overview/overviewheader14.png),url(../images/overview/Overviewpattern.svg),linear-gradient(127deg, #3c3445 0%, #59466d 100%);
+    background-size: cover,701px,cover;
+    background-repeat: no-repeat,no-repeat, repeat;
+    background-position: top,right -215px top 187px, bottom;
+    height: 50vh;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    background-attachment: scroll, fixed, scroll;
 }
 @media (min-width:475px) {
 	.finalsheader{
@@ -26,6 +30,7 @@
 		background-position: top right,left;
 	}
 }
+
 @media (min-width:700px) {
 	.finalsheader{
 		background-image: url(../images/overview/prototypeheader2.png),linear-gradient(180deg, #fafafa 0%, #eeeeee 100%);
@@ -33,13 +38,12 @@
 		background-position: top right,left;
 	}
 	.articleheader{
-		background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%),
-		url(../images/overview/overviewheader5.png),
-		linear-gradient(127deg, #ee2a4e 0%, #ff6f44 100%);
-		background-size:contain;
-    	background-repeat:no-repeat;
-    	background-position:top, right bottom -34px, bottom;
-		height:400px;
+		background: linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%), url(../images/overview/overviewheader14.png),linear-gradient(-45deg, #ffffff 0%, #f0f0f0 50%, #59466d 50.01%, #3c3445 100%);
+	    background-size: cover,959px,contain;
+	    background-repeat: no-repeat,no-repeat,no-repeat;
+	    background-position: top, right -372px top 102px, bottom;
+	    height: 80vh;
+	    background-attachment: scroll, fixed, scroll;
 	}
 }
 @media (min-width:930px) {
@@ -56,11 +60,31 @@
 		background-position: top right,left;
 	}
 	.articleheader{
-		background: url(../images/overview/overviewheader5.png),
-		linear-gradient(127deg, #ee2a4e 0%, #ff6f44 100%);
-		background-size: 1100px,cover;
-    	background-repeat: no-repeat;
-    	background-position: right top 16px, bottom;
-		height:400px;
+		background: url(../images/overview/overviewheader14.png), linear-gradient(-45deg, #ffffff 0%, #f0f0f0 50%, #59466d 50.01%, #3c3445 100%);
+	    background-size: 1100px,cover;
+	    background-repeat: no-repeat, no-repeat;
+	    background-position: right top, bottom;
+	    height: 100vh;
+	    background-attachment: fixed, scroll;
+		}
+}
+@media (min-width:1700px) {
+	.articleheader{
+		background: url(../images/overview/overviewheader14.png),linear-gradient(-45deg, #ffffff 0%, #f0f0f0 50%, #59466d 50.01%, #3c3445 100%);
+		background-size: 1300px,cover;
+    	background-repeat: no-repeat, no-repeat;
+    	background-position: right -266px top, bottom;
+    	height: 100vh;
+    	background-attachment: fixed, scroll;
+	}
+}
+@media (min-width:2000px) {
+	.articleheader{
+		background: url(../images/overview/overviewheader14.png), linear-gradient(-45deg, #ffffff 0%, #f0f0f0 60%, #59466d 60.01%, #3c3445 100%);
+		background-size: 1400px,cover;
+    	background-repeat: no-repeat, repeat;
+    	background-position: right top, bottom;
+    	height: 100vh;
+    	background-attachment: fixed, scroll;
 	}
 }
