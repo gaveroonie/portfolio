@@ -16,6 +16,7 @@
     background-repeat: no-repeat,no-repeat, repeat;
     background-position:top,right -215px top -1px, bottom;
     height: 50vmin;
+    min-height: 300px;
     margin: auto;
     width: 100%;
     position: relative;
@@ -56,7 +57,7 @@
 		background: linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%), url(../images/overview/overviewheader14.png),linear-gradient(-45deg, #ffffff 0%, #f0f0f0 50%, #59466d 50.01%, #3c3445 100%);
 	    background-size: cover,959px,contain;
 	    background-repeat: no-repeat,no-repeat,no-repeat;
-	    background-position: top, right -320px top, bottom;
+	    background-position:top, right -320px center, bottom;
 	    height: 80vmin;
 	    background-attachment: scroll, fixed, scroll;
 	}
@@ -71,17 +72,17 @@
 		background: url(../images/overview/overviewheader14.png), linear-gradient(-45deg, #ffffff 0%, #f0f0f0 50%, #59466d 50.01%, #3c3445 100%);
     	background-size: 1200px,cover;
 	    background-repeat: no-repeat, no-repeat;
-	    background-position: right -200px top, bottom;
+	    background-position: right -200px center, bottom;
 	    height: 80vmin;
 	    background-attachment: fixed, scroll;
 		}
 }
 @media (min-width:1700px) {
 	.articleheader{
-		
+		background: url(../images/overview/overviewheader14.png), linear-gradient(-45deg, #ffffff 0%, #f0f0f0 50%, #59466d 50.01%, #3c3445 100%);
 		background-size: 1300px,cover;
     	background-repeat: no-repeat, no-repeat;
-    	background-position: right -266px top, bottom;
+    	background-position: right -266px center, bottom;
     	height: 100vmin;
     	background-attachment: fixed, scroll;
 	}
@@ -91,7 +92,7 @@
 		background: url(../images/overview/overviewheader15.png), linear-gradient(-45deg, #ffffff 0%, #f0f0f0 45%, #59466d 45.01%, #3c3445 100%);
 		background-size: 1400px,cover;
     	background-repeat: no-repeat, repeat;
-    	background-position: right top, bottom;
+    	background-position: right center, bottom;
     	height: 100vmin;
     	background-attachment: fixed, scroll;
 	}

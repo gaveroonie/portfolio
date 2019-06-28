@@ -1,19 +1,17 @@
 .agendacard{
 	background-image: url(../images/agendaCards/agendacard.png),linear-gradient(-59.5deg, #3c3445 0%, #59466d 72%, #ffffff 72%);
-    background-position: top -83px right -25px,center;
-    background-size: 375px,auto;
+    background-position: top -83px right -25px, center;
+    background-size: 375px, auto;
     background-repeat: no-repeat;
 }
 .articleheader{
-	background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    ),url(../images/AgendaCards/headerfrgrnd.png),
-    url(../images/AgendaCards/headerbkrnd.png);
+	background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%),
+		url(../images/AgendaCards/AgendaHeader8.png), linear-gradient(-12deg, #ffffff 0%, #f0f0f0 53%, #59466d 53.01%, #3c3445 100%);
     background-size:cover,contain,cover;
     background-repeat:no-repeat;
     background-position:right bottom,right bottom,top right;
-	height:250px;
+	height: 50vmin;
+    min-height: 300px;
 	margin: auto;
 	width: 100%;
 	position: relative;
@@ -22,20 +20,30 @@
 @media (min-width:700px) {
 	.articleheader{
 		background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%),
-		url(../images/AgendaCards/headerfrgrnd.png),
-		url(../images/AgendaCards/headerbkrnd.png);
+		url(../images/AgendaCards/AgendaHeader8.png), linear-gradient(-12deg, #ffffff 0%, #f0f0f0 53%, #59466d 53.01%, #3c3445 100%);
 		background-size:cover,contain,cover;
     	background-repeat:no-repeat;
     	background-position: right bottom,right bottom,top right;
-		height:400px;
+		height:80vmin;
 	}
 } 
 @media (min-width:1335px) {
 	.articleheader{
-		background:url(../images/AgendaCards/headerfrgrnd.png), url(../images/AgendaCards/headerbkrnd.png);
-		background-size:contain,cover;
-    	background-repeat:no-repeat;
-    	background-position: right 100px bottom,top right;
-		height:400px;
+		background: url(../images/AgendaCards/AgendaHeader8.png), linear-gradient(-12deg, #ffffff 0%, #f0f0f0 53%, #59466d 53.01%, #3c3445 100%);
+	    background-size: contain,cover;
+	    background-repeat: no-repeat, repeat;
+	    background-position: right -260px center, bottom;
+	    height: 80vmin;
+	    background-attachment: fixed, scroll;
+	}
+}
+@media (min-width:1700px) {
+	.articleheader{
+		background: url(../images/AgendaCards/AgendaHeader8.png), linear-gradient(-12deg, #ffffff 0%, #f0f0f0 53%, #59466d 53.01%, #3c3445 100%);
+	    background-size: 1600px,cover;
+	    background-repeat: no-repeat, repeat;
+	    background-position:right -100px center, bottom;
+	    height: 100vmin;
+	    background-attachment: fixed, scroll;
 	}
 }
