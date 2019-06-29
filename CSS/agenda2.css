@@ -32,7 +32,7 @@
 		height:500px;
 		display:flex;
 		flex-direction: row;
-		padding: 0px 0% 0px 10%;
+		padding: 0px 0% 0px 5%;
 	}
 	.articleheaderimage{
 	    min-width: 584px;
@@ -44,7 +44,7 @@
 		height:600px;
 		display:flex;
 		flex-direction: row;
-		padding: 0px 0% 0px 10%;
+		padding: 0px 0% 0px 5%;
 	}
 	.articleheadertext{
 		padding-top: 10%;
@@ -55,11 +55,14 @@
     	margin-left: 0px;
 	}
 }
-@media (min-width:1300px) {
+@media (min-width:1500px) {
 	.articleheader{
 		height:700px;
 		display:flex;
 		flex-direction: row;
+		max-width: 1400px;
+    	margin: auto;
+    	padding:0;
 	}
 		.articleheaderimage{
 		max-height: 984px;
