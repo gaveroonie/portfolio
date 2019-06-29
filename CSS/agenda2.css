@@ -13,7 +13,7 @@
 	overflow: hidden;
 	display:flex;
 	flex-direction: column;
-	padding: 0px 10px 0px 10px;
+	padding: 0px 0% 0px 4%;
 }
 .articleheadertext{
 	padding: 4% 0;
@@ -25,13 +25,26 @@
 	align-self: flex-end;
 	margin-bottom: -5px;
 	max-height: 584px;
+	margin-left: 0px;
+}
+@media (min-width:700px) {
+	.articleheader{
+		height:500px;
+		display:flex;
+		flex-direction: row;
+		padding: 0px 0% 0px 10%;
+	}
+	.articleheaderimage{
+	    min-width: 584px;
+	    margin-left: -100px;
+	}
 }
 @media (min-width:900px) {
 	.articleheader{
 		height:600px;
-		overflow: visible;
 		display:flex;
 		flex-direction: row;
+		padding: 0px 0% 0px 10%;
 	}
 	.articleheadertext{
 		padding-top: 10%;
@@ -39,5 +52,16 @@
 	.articleheaderimage{
 		max-height: 584px;
     	min-width: 626px;
+    	margin-left: 0px;
+	}
+}
+@media (min-width:1300px) {
+	.articleheader{
+		height:700px;
+		display:flex;
+		flex-direction: row;
+	}
+		.articleheaderimage{
+		max-height: 984px;
 	}
 }
