@@ -1,0 +1,43 @@
+.agendacard{
+	background-image: url(../images/agendaCards/agendacard.png),linear-gradient(-59.5deg, #3c3445 0%, #59466d 72%, #ffffff 72%);
+    background-position: top -83px right -25px, center;
+    background-size: 375px, auto;
+    background-repeat: no-repeat;
+}
+.headergradient{
+	background:linear-gradient(-35deg, #ffffff 0%, #f0f0f0 41%, #59466d 41.01%, #3c3445 100%);
+
+}
+.articleheader{
+	height:400px;
+	overflow: hidden;
+	display:flex;
+	flex-direction: column;
+	padding: 0px 10px 0px 10px;
+}
+.articleheadertext{
+	padding: 4% 0;
+	flex:1;
+
+}
+.articleheaderimage{
+	flex: 2;
+	align-self: flex-end;
+	margin-bottom: -5px;
+	max-height: 584px;
+}
+@media (min-width:900px) {
+	.articleheader{
+		height:600px;
+		overflow: visible;
+		display:flex;
+		flex-direction: row;
+	}
+	.articleheadertext{
+		padding-top: 10%;
+	}
+	.articleheaderimage{
+		max-height: 584px;
+    	min-width: 626px;
+	}
+}

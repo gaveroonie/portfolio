@@ -6,16 +6,17 @@
 }
 .articleheader{
 	background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%),
-		url(../images/AgendaCards/AgendaHeader12.png), linear-gradient(-35deg, #ffffff 0%, #f0f0f0 53%, #59466d 53.01%, #3c3445 100%);
+		url(../images/AgendaCards/AgendaHeader12.png), linear-gradient(-35deg, #ffffff 0%, #f0f0f0 41%, #59466d 41.01%, #3c3445 100%);
     background-size:cover,contain,cover;
     background-repeat:no-repeat;
-    background-position:right bottom,right bottom,top right;
+    background-position:right bottom,right center,top right;
 	height: 50vmin;
     min-height: 300px;
 	margin: auto;
 	width: 100%;
 	position: relative;
 	padding:0;
+	background-attachment: scroll, fixed, scroll;
 }
 @media (min-width:700px) {
 	.articleheader{
@@ -24,6 +25,7 @@
 		background-repeat: no-repeat;
 		background-position: right bottom,right -33px center, top right;
 		height: 80vmin;
+		background-attachment: scroll,fixed, scroll;
 	}
 } 
 @media (min-width:1335px) {
@@ -38,7 +40,7 @@
 }
 @media (min-width:1700px) {
 	.articleheader{
-		background: url(../images/AgendaCards/AgendaHeader12.png), linear-gradient(-12deg, #ffffff 0%, #f0f0f0 53%, #59466d 53.01%, #3c3445 100%);
+		background: url(../images/AgendaCards/AgendaHeader12.png), linear-gradient(-12deg, #ffffff 0%, #f0f0f0 53%, #59466d 53.01%, #27242a 100%);
 	    background-size: 1400px,cover;
 	    background-repeat: no-repeat, repeat;
 	    background-position: right 13px center, bottom;
