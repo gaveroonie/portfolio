@@ -4,39 +4,90 @@
     background-size: 475px, auto;
     background-repeat: no-repeat;
 }
+.headergradient{
+	background:linear-gradient(-23deg, #ffffff 0%, #f0f0f0 45%, #59466d 45.01%, #3c3445 100%);
+	background-position:left;
+}
 .articleheader{
-	background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    ),url(../images/price/ticketheader.png),
-    linear-gradient(127deg, #302b37 0%, #453753 100%);;
-    background-size:cover,cover,cover;
-    background-repeat:no-repeat;
-    background-position:right bottom,right top,top right;
-	height:250px;
-	margin: auto;
-	width: 100%;
-	position: relative;
-	padding:0;
+	height:400px;
+	overflow: hidden;
+	display:flex;
+	flex-direction: column;
+	padding: 0px 0% 0px 4%;
+}
+.articleheadertext h1{
+	font-size:60px;
+	line-height: 53px;
+	margin: 0px; 
+}
+.articleheadertext h4{
+	font-size:20px;
+	line-height: 20px;
+	margin: 0px; 
+}
+.articleheadertext{
+	padding: 4% 0;
+	flex:1;
+
+}
+.articleheaderimage img{
+    width: 100%;
+    margin: 20px auto;
+    max-width: none;
+}
+.articleheaderimage{
+	flex: 2;
+	align-self: flex-start;
 }
 @media (min-width:700px) {
 	.articleheader{
-		background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%),
-		url(../images/price/ticketheader.png),url(../images/price/xandcross.svg),
-		linear-gradient(127deg, #302b37 0%, #453753 100%);
-		background-size:cover,cover,cover,100%;
-    	background-repeat:no-repeat,no-repeat,repeat;
-    	background-position: right bottom,right -54px top -20px,top right,top right;
-		height:400px;
+		height:500px;
+		display:flex;
+		flex-direction: row;
+		padding: 0px 0% 0px 5%;
 	}
-} 
-@media (min-width:1335px) {
+	.articleheaderimage img{
+	width:600px;
+	}
+	.articleheaderimage{
+	    margin-left: -100px;
+	}
+}
+@media (min-width:900px) {
 	.articleheader{
-		background:url(../images/price/ticketheader.png),url(../images/price/xandcross.svg),
-		linear-gradient(127deg, #302b37 0%, #453753 100%);
-		background-size: 900px, 600px, 100%;
-	    background-repeat: no-repeat,repeat,repeat;
-	    background-position: right -100px top -40px,top right,right;
-	    height: 400px;
+		height:600px;
+		display:flex;
+		flex-direction: row;
+		padding: 0px 0% 0px 5%;
 	}
+	.articleheadertext{
+		padding-top: 10%;
+	}
+	.articleheaderimage img{
+	width: 850px;
+	}
+	.articleheaderimage{
+    	margin-left: 0px;
+	}
+}
+@media (min-width:1500px) {
+	.articleheader{
+		height:700px;
+		display:flex;
+		flex-direction: row;
+		max-width: 1400px;
+    	margin: auto;
+    	padding:0;
+	}
+	.articleheaderimage img{
+		width: 1000px !important;
+	}
+	.articleheaderimage{
+
+	}
+	.articleheadertext h1{
+		font-size:80px;
+		line-height: 73px;
+		margin: 0px; 
+}
 }
