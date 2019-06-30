@@ -31,9 +31,10 @@
 
 }
 .articleheaderimage img{
-	width:500px;
-	margin-bottom: -5px;
-	max-width: none;
+	width: 435px;;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    max-width: none;
 }
 .articleheaderimage{
 	flex: 2;
@@ -64,7 +65,7 @@
 		padding-top: 10%;
 	}
 	.articleheaderimage img{
-	width: 850px !important;
+	width: 850px;
 	}
 	.articleheaderimage{
     	margin-left: 0px;
