@@ -67,7 +67,12 @@
 	}
 }
 @media (min-width:900px) {
+	.headergradient{
+		background: linear-gradient(-12deg, #ffffff 0%, #f0f0f0 35%, #59466d 35.01%, #3c3445 100%);
+    	background-position: left;
+	}
 	.articleheader{
+		overflow:visible;
 		height:600px;
 		display:flex;
 		flex-direction: row;
@@ -85,6 +90,7 @@
 }
 @media (min-width:1500px) {
 	.articleheader{
+		overflow:visible;
 		height:700px;
 		display:flex;
 		flex-direction: row;
